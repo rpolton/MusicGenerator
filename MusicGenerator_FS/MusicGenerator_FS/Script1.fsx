@@ -90,26 +90,26 @@ module Notes =
 
     let calcFreqFromNote (n:Note) = 440.0 * (2.0 ** (((int >> float) n)/12.0))
 
-    let fn seed goal testval (path:Interval list) =
-        match path with
-        | [] -> true
-        | _ -> 
-            // the frequencies corresponding to the interval path, in reverse order
-            let freqs = ((calcFreqFromNote seed) :: 
-                            (List.rev (testval::path) |> 
-                             List.mapFold (fun state interval -> 
-                                            let newNote = add state interval 
-                                            newNote |> calcFreqFromNote, newNote) seed |> fst)) |> List.rev
-            printfn "Freqs: %A" freqs
-            let calculatedDissonance = freqs |> (List.take (min 5 (List.length freqs)) >> List.pairwise >> List.fold (fun state (freq1, freq2) -> state + dissonance freq1 freq2) 0.0)
-            printfn "Goal: %A %f %A" goal calculatedDissonance (testval::path)
-            let result = abs (calculatedDissonance - goal.average) < goal.dev
-            printfn "%A" result
-            result
+    let fn r seed goal testval (path:Interval list) =
+        // the frequencies corresponding to the interval path, in reverse order
+        let freqs = ((calcFreqFromNote seed) :: 
+                        (List.rev (testval::path) |> 
+                            List.mapFold (fun state interval -> 
+                                        let newNote = add state interval 
+                                        newNote |> calcFreqFromNote, newNote) seed |> fst)) |> List.rev
+        printfn "Freqs: %A" freqs
+        let calculatedDissonance = 
+            freqs |> (
+                List.pairwise >> List.mapi (fun pos elem -> pos,elem) >>
+                List.fold (fun state (pos, (freq1, freq2)) -> state + System.Math.Exp (-1. * (float pos) * r) * dissonance freq1 freq2) 0.0)
+        printfn "Goal: %A %f %A" goal calculatedDissonance (testval::path)
+        let result = abs (calculatedDissonance - goal.average) < goal.dev
+        printfn "%A" result
+        result
             
         
 
     let startingNote = Note.A
-    let randomIntervalPathWithGoal = (randomIntervalGenerator |> Gen.suchThat (pathDepMemoize (fn startingNote {average=2.5; dev=2.5}))).Sample(10,50)
+    let randomIntervalPathWithGoal = (randomIntervalGenerator |> Gen.suchThat (pathDepMemoize (fn 1.0 startingNote {average=2.5; dev=2.5}))).Sample(10,50)
 
     let sequence = randomIntervalPathWithGoal |> List.rev |> List.fold (fun state elem -> (add (List.head state) elem) :: state) [startingNote] |> List.rev
