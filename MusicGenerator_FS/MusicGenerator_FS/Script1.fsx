@@ -110,6 +110,8 @@ module Notes =
         
 
     let startingNote = Note.A
-    let randomIntervalPathWithGoal = (randomIntervalGenerator |> Gen.suchThat (pathDepMemoize (fn 1.0 startingNote {average=2.5; dev=2.5}))).Sample(10,50)
+    let decay = 1.0
+    let goal = {average=2.5; dev=2.5}
+    let randomIntervalPathWithGoal = (randomIntervalGenerator |> Gen.suchThat (pathDepMemoize (fn decay startingNote goal))).Sample(10,50)
 
     let sequence = randomIntervalPathWithGoal |> List.rev |> List.fold (fun state elem -> (add (List.head state) elem) :: state) [startingNote] |> List.rev
