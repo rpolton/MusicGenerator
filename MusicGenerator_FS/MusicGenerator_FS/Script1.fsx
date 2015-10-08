@@ -115,3 +115,34 @@ module Notes =
     let randomIntervalPathWithGoal = (randomIntervalGenerator |> Gen.suchThat (pathDepMemoize (fn decay startingNote goal))).Sample(10,50)
 
     let sequence = randomIntervalPathWithGoal |> List.rev |> List.fold (fun state elem -> (add (List.head state) elem) :: state) [startingNote] |> List.rev
+
+    // Introduce a distance function that considers both the inter-interval dissonance and the dissoance of the whole path
+    let fn2 r seed docGoal intGoal testval (path:Interval list) =
+        // the frequencies corresponding to the interval path, in reverse order
+        let freqs = ((calcFreqFromNote seed) :: 
+                        (List.rev (testval::path) |> 
+                            List.mapFold (fun state interval -> 
+                                        let newNote = add state interval 
+                                        newNote |> calcFreqFromNote, newNote) seed |> fst)) |> List.rev
+        printfn "Freqs: %A" freqs
+        let calculatedDissonanceDoc = 
+            freqs |> (
+                List.pairwise >> List.mapi (fun pos elem -> pos,elem) >>
+                List.fold (fun state (pos, (freq1, freq2)) -> state + System.Math.Exp (-1. * (float pos) * r) * dissonance freq1 freq2) 0.0)
+        printfn "DocGoal: %A %f %A" docGoal calculatedDissonanceDoc (testval::path)
+        let docResult = abs (calculatedDissonanceDoc - docGoal.average) < docGoal.dev
+        printfn "DocResult: %A" docResult
+
+        let intResult = 
+            match freqs with
+            | f2::f1::tail ->
+                let calculatedDissonanceInterval = dissonance f1 f2
+                abs (calculatedDissonanceInterval - intGoal.average) < intGoal.dev
+            | _ -> true
+        printfn "IntResult: %A" intResult
+
+        docResult && intResult
+
+    let randomIntervalPathWithDocAndIntGoals = (randomIntervalGenerator |> Gen.suchThatOption (pathDepMemoize (fn2 1.0 startingNote {average=1.5; dev=1.0} {average=2.5; dev=2.5}))).Sample(10,50)
+
+    let sequence2 = randomIntervalPathWithDocAndIntGoals |> List.rev |> List.choose id |> List.fold (fun state elem -> (add (List.head state) elem) :: state) [startingNote] |> List.rev
