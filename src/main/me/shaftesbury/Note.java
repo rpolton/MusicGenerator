@@ -129,11 +129,14 @@ public class Note {
         return notesToFrequencies.get(Pair.with(note, octave));
     }
 
-//    public static Note addStep(final Step step, final Note note)
-//    {
-//        final Note halfstep = incrementByHalfStep(note);
-//        return step==Step.Whole ? incrementByHalfStep(halfstep) : halfstep;
-//    }
+    public static Note addStep(final Step step, final Note note)
+    {
+        if(step.equals(Step.Half)) return incrementByHalfStep(note);
+        if(step.equals(Step.Whole)) return incrementByHalfStep(incrementByHalfStep(note));
+        if(step.equals(Step.AugSecond)) return incrementByHalfStep(incrementByHalfStep(incrementByHalfStep(note)));
+
+        throw new IllegalStateException("Unrecognised step");
+    }
 //
 //    public static Note subtractStep(final Step step, final Note note)
 //    {
