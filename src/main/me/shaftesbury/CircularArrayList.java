@@ -16,6 +16,11 @@ public final class CircularArrayList<E> extends ArrayList<E>
         return new CircularArrayList<T>(Collections.unmodifiableList(Arrays.asList(args)));
     }
 
+    public static <T>List<T> asCircularArrayList(final List<T> args)
+    {
+        return new CircularArrayList<T>(Collections.unmodifiableList(args));
+    }
+
     public static <T>List<T> seqAsCircularArrayList(final Iterable<T> arg)
     {
         return new CircularArrayList<T>(Collections.unmodifiableList(Functional.toList(arg)));

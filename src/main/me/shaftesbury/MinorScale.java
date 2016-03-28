@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class MinorScale extends Scale
 {
-    public Scale create(final Note rootNote) { return new MinorScale(rootNote); }
+    public static Scale create(final Note rootNote) { return new MinorScale(rootNote); }
 
     public MinorScale(final Note rootNote)
     {
