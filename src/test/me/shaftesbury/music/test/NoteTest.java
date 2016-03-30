@@ -95,4 +95,14 @@ public class NoteTest
 
         Assert.assertEquals(440.0, freq, 0.001);
     }
+
+    @Test
+    public void verifyFreqOfMiddleC()
+    {
+        final Note middleC = new Note("C",4);
+
+        final double freq = Note.toFreq(middleC);
+
+        Assert.assertEquals(261.626, freq, 0.001);
+    }
 }
