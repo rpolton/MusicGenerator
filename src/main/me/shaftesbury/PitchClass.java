@@ -57,6 +57,15 @@ public class PitchClass
         throw new IllegalStateException("Unexpected step size "+step);
     }
 
+    public static PitchClass subtractStep(final Step step, final PitchClass note)
+    {
+        if(step==Step.Half) return subtractSteps(1, note);
+        if(step==Step.Whole) return subtractSteps(2, note);
+        if(step==Step.AugSecond) return subtractSteps(3, note);
+
+        throw new IllegalStateException("Unexpected step size "+step);
+    }
+
     private static PitchClass addSteps(final int howManySteps, final PitchClass note)
     {
         final PitchClass pitch = makeCanonical(note);
@@ -68,5 +77,18 @@ public class PitchClass
         }, canonicalPitches);
 
         return new PitchClass(canonicalPitches.get(index+howManySteps));
+    }
+
+    private static PitchClass subtractSteps(final int howManySteps, final PitchClass note)
+    {
+        final PitchClass pitch = makeCanonical(note);
+        final int index = Functional.findIndex(new Func<PitchClassInternal, Boolean>() {
+            @Override
+            public Boolean apply(final PitchClassInternal name) {
+                return name.equals(pitch.p);
+            }
+        }, canonicalPitches);
+
+        return new PitchClass(canonicalPitches.get(index-howManySteps));
     }
 }

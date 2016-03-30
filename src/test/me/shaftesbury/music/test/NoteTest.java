@@ -2,6 +2,7 @@ package me.shaftesbury.music.test;
 
 import com.google.common.collect.Lists;
 import me.shaftesbury.Note;
+import me.shaftesbury.Step;
 import me.shaftesbury.utils.functional.Func;
 import me.shaftesbury.utils.functional.Functional;
 import org.javatuples.Pair;
@@ -104,5 +105,27 @@ public class NoteTest
         final double freq = Note.toFreq(middleC);
 
         Assert.assertEquals(261.626, freq, 0.001);
+    }
+
+    @Test
+    public void verifyAddHalfStepMovesFromAToASharp()
+    {
+        final Note A440 = new Note("A",4);
+        final Note expected = new Note("A#",4);
+
+        final Note output = Note.addStep(Step.Half, A440);
+
+        Assert.assertEquals(expected,output);
+    }
+
+    @Test
+    public void verifyAddWholeStepMovesFromAToB()
+    {
+        final Note A440 = new Note("A",4);
+        final Note expected = new Note("B",4);
+
+        final Note output = Note.addStep(Step.Whole, A440);
+
+        Assert.assertEquals(expected,output);
     }
 }

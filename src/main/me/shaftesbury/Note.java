@@ -42,20 +42,6 @@ public class Note {
     public static PitchClass pitchClass(final Note note) { return note.pitchClass; }
 //    public static Pair<PitchClass,Integer> asName(final Note note) {return Pair.with(note.noteAndOctave.Some().getValue0(), note.noteAndOctave.Some().getValue1()); }
 
-//    public static Note incrementByHalfStep(final Note note)
-//    {
-//        final int index = Functional.findIndex(new Func<String, Boolean>() {
-//            @Override
-//            public Boolean apply(final String name) {
-//                return name.equals(note.noteAndOctave.Some().getValue0());
-//            }
-//        }, noteNames);
-//        if(index==noteNames.size()-1)
-//            return new Note(noteNames.get(0),note.noteAndOctave.Some().getValue1()+1);
-//        else
-//            return new Note(noteNames.get(index+1),note.noteAndOctave.Some().getValue1());
-//    }
-
     private static int getIndex(final PitchClassInternal noteName)
     {
         return Functional.findIndex(new Func<PitchClassInternal, Boolean>() {
@@ -65,15 +51,6 @@ public class Note {
             }
         }, noteNames);
     }
-
-//    public static Note decrement(final Note note)
-//    {
-//        final int index = getIndex(note.noteAndOctave.Some().getValue0());
-//        if(index==indexOfC)
-//            return new Note(noteNames.get(noteNames.size()-1),note.noteAndOctave.Some().getValue1()-1);
-//        else
-//            return new Note(noteNames.get(index-1),note.noteAndOctave.Some().getValue1());
-//    }
 
     private final static List<PitchClassInternal> noteNames = CircularArrayList.asCircularArrayList(
             PitchClassInternal.C,PitchClassInternal.CSHARP,PitchClassInternal.D,PitchClassInternal.DSHARP,PitchClassInternal.E,
@@ -156,5 +133,12 @@ public class Note {
         final int newOctave = note.octave +
                 ((note.pitchClass.equals(new PitchClass("B"))) ? 1 : 0 );
         return new Note(PitchClass.addStep(Step.Half,note.pitchClass),newOctave);
+    }
+
+    public static Note decrement(final Note note)
+    {
+        final int newOctave = note.octave -
+                ((note.pitchClass.equals(new PitchClass("B"))) ? 1 : 0);
+        return new Note(PitchClass.subtractStep(Step.Half,note.pitchClass),newOctave);
     }
 }

@@ -31,7 +31,7 @@ public final class CircularArrayList<E> extends ArrayList<E>
     {
         final int modIndex = index % size();
         if(modIndex<0)
-            return super.get(size() - modIndex);
+            return super.get(size() + modIndex);
         else
             return super.get(modIndex);
     }
