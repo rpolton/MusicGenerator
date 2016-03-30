@@ -29,7 +29,7 @@ public class PitchClass
         if(p.equals(o.p)) return true;
         //enharmonic notes are equal
         if(p.isEnharmonicWith(o.p)) return true;
-        return this==o;
+        return false;
     }
 
     private static final List<PitchClassInternal> canonicalPitches = CircularArrayList.asCircularArrayList(
@@ -46,7 +46,7 @@ public class PitchClass
         throw new IllegalStateException();
     }
 
-    public String toString(){return "Note "+p.toString();}
+    public String toString(){return p.toString();}
 
     public static PitchClass addStep(final Step step, final PitchClass note)
     {

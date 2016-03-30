@@ -2,7 +2,6 @@ package me.shaftesbury;
 
 import me.shaftesbury.utils.functional.Func;
 import me.shaftesbury.utils.functional.Functional;
-import org.javatuples.Pair;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -12,7 +11,8 @@ import java.util.Map;
 public class Note {
 // These three fields should be a union of one and two fields
 //    private final double freq;
-    private final Pair<PitchClass,Integer> noteAndOctave;
+    private final PitchClass pitchClass;
+    private final int octave;
 //    public Note(final double freq)
 //    {
 //        this.freq = Option.toOption(freq);
@@ -20,24 +20,26 @@ public class Note {
 //    }
     public Note(final String note, final int octave)
     {
-        noteAndOctave=Pair.with(new PitchClass(note),octave);
+        pitchClass=new PitchClass(note);
+        this.octave=octave;
     }
     public Note(final PitchClass note, final int octave)
     {
-        noteAndOctave=Pair.with(note,octave);
-//        freq=Option.None();
+        this.pitchClass=note;
+        this.octave=octave;
     }
 
-    public String toString(){return "Note "+noteAndOctave;}
+    public String toString(){return pitchClass+""+octave;}
     public boolean equals(final Object other) {
         if(other==null) return false;
         if(other.getClass()!=Note.class) return false;
-        return this.noteAndOctave.equals(((Note)other).noteAndOctave);
+        final Note o = (Note)other;
+        return octave==o.octave && pitchClass.equals(o.pitchClass);
     }
-    public int hashCode() { return noteAndOctave.hashCode(); }
+    public int hashCode() { return pitchClass.hashCode(); }
 
 //    public static double asFreq(final Note note) { return note.freq.Some(); }
-    public static PitchClass pitchClass(final Note note) { return note.noteAndOctave.getValue0(); }
+    public static PitchClass pitchClass(final Note note) { return note.pitchClass; }
 //    public static Pair<PitchClass,Integer> asName(final Note note) {return Pair.with(note.noteAndOctave.Some().getValue0(), note.noteAndOctave.Some().getValue1()); }
 
 //    public static Note incrementByHalfStep(final Note note)
@@ -81,8 +83,8 @@ public class Note {
     private final static int indexOfB = getIndex(PitchClassInternal.B);
     private final static int indexOfC = getIndex(PitchClassInternal.C);
 
-    private final static Map<Pair<PitchClass,Integer>,Double> notesToFrequencies = new HashMap<Pair<PitchClass,Integer>, Double>();
-    private final static Map<Double,Note> frequenciesToNotes = new HashMap<Double, Note>();
+    private final static Map<String,Double> notesToFrequencies = new HashMap<String, Double>();
+    private final static Map<Double,String> frequenciesToNotes = new HashMap<Double, String>();
 
     static
     {
@@ -114,19 +116,24 @@ public class Note {
     private static void save(final Note theNote,final int counter)
     {
         final double theFreq = 440.0*Math.pow(2.0,((double)counter)/12.0);
-        notesToFrequencies.put(Pair.with(theNote.noteAndOctave.getValue0(),theNote.noteAndOctave.getValue1()),theFreq);
-        frequenciesToNotes.put(theFreq,theNote);
+        notesToFrequencies.put(theNote.toString(),theFreq);
+        frequenciesToNotes.put(theFreq,theNote.toString());
     }
 
-    public static Pair<PitchClass,Integer> calculateNoteFromFreq(final double freq)
-    {
-        final Note note = frequenciesToNotes.get(freq);
-        return Pair.with(note.noteAndOctave.getValue0(),note.noteAndOctave.getValue1());
-    }
+//    public static Pair<PitchClass,Integer> fromFreq(final double freq)
+//    {
+//        final Note note = new Note(frequenciesToNotes.get(freq));
+//        return Pair.with(note.pitchClass,note.octave);
+//    }
 
-    public static double calculateFreqFromNote(final String note, final int octave)
+    public static double toFreq(final Note note)
     {
-        return notesToFrequencies.get(Pair.with(note, octave));
+        if(notesToFrequencies.containsKey(note.toString()))
+            return notesToFrequencies.get(note.toString());
+
+        for(final Map.Entry<String,Double> entry : notesToFrequencies.entrySet())
+            System.out.println(entry);
+        throw new IllegalStateException(String.format("%s not recognised. Calculation must be performed to determine the frequency.", note));
     }
 
     public static Note addStep(final Step step, final Note note)
@@ -146,8 +153,8 @@ public class Note {
 
     public static Note incrementByHalfStep(final Note note)
     {
-        final int newOctave = note.noteAndOctave.getValue1() +
-                ((note.noteAndOctave.getValue0().equals(new PitchClass("B"))) ? 1 : 0 );
-        return new Note(PitchClass.addStep(Step.Half,note.noteAndOctave.getValue0()),newOctave);
+        final int newOctave = note.octave +
+                ((note.pitchClass.equals(new PitchClass("B"))) ? 1 : 0 );
+        return new Note(PitchClass.addStep(Step.Half,note.pitchClass),newOctave);
     }
 }
