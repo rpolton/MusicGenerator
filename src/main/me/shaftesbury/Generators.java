@@ -1,24 +1,64 @@
 package me.shaftesbury;
 
+import me.shaftesbury.utils.functional.Functional;
+
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+import java.util.Random;
 
 public class Generators
 {
-//    public static Note nextNoteConstantDissonance(final double dissonance, final double dissDeviation, final List<Note> previousNotes)
-//    {
-//        final List<Note> prev2 = Functional.noException.take(2, previousNotes);
-//        if(prev2.size()==1)
-//        {
-//            final Note prevNote = prev2.get(0);
-//            final double prevFreq = Note.asFreq(prevNote);
-//        }
-//        else
-//        {
-//            final Note prevNotem1 = prev2.get()
-//        }
-//
-//        return new Note();
-//    }
+    public static Note nextNoteConstantDissonance(final Random rnd, final int maxAttempts, final double dissonance, final double dissDeviation, final List<Note> previousNotes)
+    {
+        final List<Note> prev2 = Functional.noException.take(2, previousNotes);
+        if(prev2.size()>=1)
+        {
+            final Note prevNote = prev2.get(0);
+            final double prevFreq = Note.toFreq(prevNote);
+            Note testNote=null;
+            double dissonance1;
+            int attempts=0;
+            final Map<Note,Double> dissonances = new HashMap<Note, Double>();
+            Note n=Note.addStep(Step.Half,prevNote);
+            do {
+                //test all notes
+                final double to = Note.toFreq(n);
+                dissonance1 = SMPCFunctions.dissonance(prevFreq, to, 7);
+                dissonances.put(n,dissonance1);
+                System.out.println(String.format("Testing with %s having dissonance %f", n, dissonance1));
+                n = Note.addStep(Step.Half,n);
+            }while(! Note.pitchClass(n).equals(Note.pitchClass(prevNote)));
+
+            n=Note.subtractStep(Step.Half,prevNote);
+            do {
+                //test all notes
+                final double to = Note.toFreq(n);
+                dissonance1 = SMPCFunctions.dissonance(prevFreq, to, 7);
+                dissonances.put(n,dissonance1);
+                System.out.println(String.format("Testing with %s having dissonance %f", n, dissonance1));
+                n = Note.subtractStep(Step.Half,n);
+            }while(! Note.pitchClass(n).equals(Note.pitchClass(prevNote)));
+
+            double nearest=dissonance;
+            Note nearestNote=prevNote;
+            for(final Map.Entry<Note,Double> entry : dissonances.entrySet())
+            {
+                // find the note with dissonance nearest the required amount.
+                // Choose randomly from them if there are more than one.
+                if(Math.abs(entry.getValue()-dissonance)<nearest)
+                {
+                    nearest=entry.getValue();
+                    nearestNote=entry.getKey();
+                }
+            }
+
+            System.out.println(String.format("Choosing %s",nearestNote));
+            return nearestNote;
+        }
+
+        throw new IllegalArgumentException("No notes passed into generator.");
+    }
 //
 //    public static Note nextNoteUpOneOctave(final List<Note> previousNotes)
 //    {

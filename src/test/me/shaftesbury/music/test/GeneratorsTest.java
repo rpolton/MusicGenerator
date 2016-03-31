@@ -8,6 +8,8 @@ import me.shaftesbury.EqualTemperedScale;
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.util.Random;
+
 public class GeneratorsTest
 {
     @Test
@@ -56,5 +58,14 @@ public class GeneratorsTest
         final Note expected = new Note("B",3);
 
         Assert.assertEquals(expected,output);
+    }
+
+    @Test
+    public void nextNoteConstantDissonanceTest()
+    {
+        for(int i=0;i<10;++i) {
+            final Note generatedNote = Generators.nextNoteConstantDissonance(new Random(), 5, 2.5, 0.5, Lists.<Note>newArrayList(new Note("A", 4)));
+            System.out.println(generatedNote);
+        }
     }
 }

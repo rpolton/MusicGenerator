@@ -40,6 +40,7 @@ public class Note {
 
 //    public static double asFreq(final Note note) { return note.freq.Some(); }
     public static PitchClass pitchClass(final Note note) { return note.pitchClass; }
+    public static int octave(final Note note) { return note.octave; }
 //    public static Pair<PitchClass,Integer> asName(final Note note) {return Pair.with(note.noteAndOctave.Some().getValue0(), note.noteAndOctave.Some().getValue1()); }
 
     private static int getIndex(final PitchClassInternal noteName)
@@ -108,8 +109,8 @@ public class Note {
         if(notesToFrequencies.containsKey(note.toString()))
             return notesToFrequencies.get(note.toString());
 
-        for(final Map.Entry<String,Double> entry : notesToFrequencies.entrySet())
-            System.out.println(entry);
+//        for(final Map.Entry<String,Double> entry : notesToFrequencies.entrySet())
+//            System.out.println(entry);
         throw new IllegalStateException(String.format("%s not recognised. Calculation must be performed to determine the frequency.", note));
     }
 
