@@ -1,7 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a8f59ed-8f6b-4207-84f8-91ace9de3fef" name="Default" comment="" />
+    <list default="true" id="3a8f59ed-8f6b-4207-84f8-91ace9de3fef" name="Default" comment="Added major scale test">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__me_shaftesbury_Functional_Utils_Java_test_jar_tests_1_17.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MusicGenerator_FS/TextFile1.txt" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_collections_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/me/shaftesbury/SMPCFunctions$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/me/shaftesbury/Scale$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/me/shaftesbury/Scale$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/me/shaftesbury/Scale.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_19_0.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/me/shaftesbury/Scale.java" afterPath="$PROJECT_DIR$/src/main/me/shaftesbury/EqualTemperedScale.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/me/shaftesbury/Chord$1.class" afterPath="$PROJECT_DIR$/target/classes/me/shaftesbury/Chord$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/me/shaftesbury/Chord$2.class" afterPath="$PROJECT_DIR$/target/classes/me/shaftesbury/Chord$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/me/shaftesbury/Chord.class" afterPath="$PROJECT_DIR$/target/classes/me/shaftesbury/Chord.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/me/shaftesbury/Chords.class" afterPath="$PROJECT_DIR$/target/classes/me/shaftesbury/Chords.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/me/shaftesbury/CircularArrayList.class" afterPath="$PROJECT_DIR$/target/classes/me/shaftesbury/CircularArrayList.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/me/shaftesbury/Generators.class" afterPath="$PROJECT_DIR$/target/classes/me/shaftesbury/Generators.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/me/shaftesbury/MajorScale.class" afterPath="$PROJECT_DIR$/target/classes/me/shaftesbury/MajorScale.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/me/shaftesbury/MinorScale.class" afterPath="$PROJECT_DIR$/target/classes/me/shaftesbury/MinorScale.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/me/shaftesbury/MusicGenerator$1.class" afterPath="$PROJECT_DIR$/target/classes/me/shaftesbury/MusicGenerator$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/me/shaftesbury/MusicGenerator$2.class" afterPath="$PROJECT_DIR$/target/classes/me/shaftesbury/MusicGenerator$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/me/shaftesbury/MusicGenerator.class" afterPath="$PROJECT_DIR$/target/classes/me/shaftesbury/MusicGenerator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/me/shaftesbury/Note$1.class" afterPath="$PROJECT_DIR$/target/classes/me/shaftesbury/Note$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/me/shaftesbury/Note$2.class" afterPath="$PROJECT_DIR$/target/classes/me/shaftesbury/Note$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/me/shaftesbury/Note.class" afterPath="$PROJECT_DIR$/target/classes/me/shaftesbury/Note.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/me/shaftesbury/SMPCFunctions$1.class" afterPath="$PROJECT_DIR$/target/classes/me/shaftesbury/SMPCFunctions$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/me/shaftesbury/SMPCFunctions$2.class" afterPath="$PROJECT_DIR$/target/classes/me/shaftesbury/SMPCFunctions$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/me/shaftesbury/SMPCFunctions$3.class" afterPath="$PROJECT_DIR$/target/classes/me/shaftesbury/SMPCFunctions$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/me/shaftesbury/SMPCFunctions.class" afterPath="$PROJECT_DIR$/target/classes/me/shaftesbury/SMPCFunctions.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/me/shaftesbury/Step.class" afterPath="$PROJECT_DIR$/target/classes/me/shaftesbury/Step.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/me/shaftesbury/music/test/MusicGeneratorTest.class" afterPath="$PROJECT_DIR$/target/test-classes/me/shaftesbury/music/test/MusicGeneratorTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MusicGenerator.iml" afterPath="$PROJECT_DIR$/MusicGenerator.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MusicGenerator_FS/MusicGenerator_FS/Script1.fsx" afterPath="$PROJECT_DIR$/MusicGenerator_FS/MusicGenerator_FS/Script1.fsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/me/shaftesbury/Generators.java" afterPath="$PROJECT_DIR$/src/main/me/shaftesbury/Generators.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/me/shaftesbury/HungarianMinorScale.java" afterPath="$PROJECT_DIR$/src/main/me/shaftesbury/HungarianMinorScale.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/me/shaftesbury/MajorScale.java" afterPath="$PROJECT_DIR$/src/main/me/shaftesbury/MajorScale.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/me/shaftesbury/MinorScale.java" afterPath="$PROJECT_DIR$/src/main/me/shaftesbury/MinorScale.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/me/shaftesbury/Note.java" afterPath="$PROJECT_DIR$/src/main/me/shaftesbury/Note.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/me/shaftesbury/music/test/GeneratorsTest.java" afterPath="$PROJECT_DIR$/src/test/me/shaftesbury/music/test/GeneratorsTest.java" />
+    </list>
     <ignored path="MusicGenerator.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -17,215 +61,37 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="DaemonCodeAnalyzer">
-    <disable_hints />
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="MusicGenerator" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Functional.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/me/shaftesbury/Functional-Utils-Java/1.17/Functional-Utils-Java-1.17-sources.jar!/me/shaftesbury/utils/functional/Functional.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Generators.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/me/shaftesbury/Generators.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="9758" max-vertical-offset="59007">
-              <caret line="624" column="50" selection-start-line="624" selection-start-column="50" selection-end-line="624" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#665#666#0" expanded="false" />
-                <element signature="e#710#711#0" expanded="false" />
-                <element signature="e#2435#2436#0" expanded="false" />
-                <element signature="e#2507#2508#0" expanded="false" />
-                <element signature="e#2688#2689#0" expanded="false" />
-                <element signature="e#2738#2739#0" expanded="false" />
-                <element signature="e#7676#7677#0" expanded="false" />
-                <element signature="e#7739#7740#0" expanded="false" />
-                <element signature="e#11978#11979#0" expanded="false" />
-                <element signature="e#12045#12046#0" expanded="false" />
-                <element signature="e#14262#14263#0" expanded="false" />
-                <element signature="e#14325#14326#0" expanded="false" />
-                <element signature="e#15023#15024#0" expanded="false" />
-                <element signature="e#15060#15061#0" expanded="false" />
-                <element signature="e#16006#16007#0" expanded="false" />
-                <element signature="e#16064#16065#0" expanded="false" />
-                <element signature="e#17602#17603#0" expanded="false" />
-                <element signature="e#17642#17643#0" expanded="false" />
-                <element signature="e#17998#17999#0" expanded="false" />
-                <element signature="e#18039#18040#0" expanded="false" />
-                <element signature="e#18381#18382#0" expanded="false" />
-                <element signature="e#18422#18423#0" expanded="false" />
-                <element signature="e#18752#18753#0" expanded="false" />
-                <element signature="e#18808#18809#0" expanded="false" />
-                <element signature="e#19113#19114#0" expanded="false" />
-                <element signature="e#19153#19154#0" expanded="false" />
-                <element signature="e#19631#19632#0" expanded="false" />
-                <element signature="e#19691#19692#0" expanded="false" />
-                <element signature="e#20198#20199#0" expanded="false" />
-                <element signature="e#20259#20260#0" expanded="false" />
-                <element signature="e#20741#20742#0" expanded="false" />
-                <element signature="e#20801#20802#0" expanded="false" />
-                <element signature="e#21302#21303#0" expanded="false" />
-                <element signature="e#21363#21364#0" expanded="false" />
-                <element signature="e#24670#24671#0" expanded="false" />
-                <element signature="e#24732#24733#0" expanded="false" />
-                <element signature="e#27058#27059#0" expanded="false" />
-                <element signature="e#27121#27122#0" expanded="false" />
-                <element signature="e#33206#33207#0" expanded="false" />
-                <element signature="e#33271#33272#0" expanded="false" />
-                <element signature="e#34773#34774#0" expanded="false" />
-                <element signature="e#34838#34839#0" expanded="false" />
-                <element signature="e#36737#36738#0" expanded="false" />
-                <element signature="e#36802#36803#0" expanded="false" />
-                <element signature="e#40057#40058#0" expanded="false" />
-                <element signature="e#40125#40126#0" expanded="false" />
-                <element signature="e#42377#42378#0" expanded="false" />
-                <element signature="e#42443#42444#0" expanded="false" />
-                <element signature="e#44113#44114#0" expanded="false" />
-                <element signature="e#44191#44192#0" expanded="false" />
-                <element signature="e#54558#54559#0" expanded="false" />
-                <element signature="e#54627#54628#0" expanded="false" />
-                <element signature="e#56404#56405#0" expanded="false" />
-                <element signature="e#56481#56482#0" expanded="false" />
-                <element signature="e#58589#58590#0" expanded="false" />
-                <element signature="e#58659#58660#0" expanded="false" />
-                <element signature="e#60736#60737#0" expanded="false" />
-                <element signature="e#60813#60814#0" expanded="false" />
-                <element signature="e#61382#61383#0" expanded="false" />
-                <element signature="e#61429#61430#0" expanded="false" />
-                <element signature="e#62051#62052#0" expanded="false" />
-                <element signature="e#62144#62145#0" expanded="false" />
-                <element signature="e#71921#71922#0" expanded="false" />
-                <element signature="e#71987#71988#0" expanded="false" />
-                <element signature="e#73899#73900#0" expanded="false" />
-                <element signature="e#73954#73955#0" expanded="false" />
-                <element signature="e#74939#74940#0" expanded="false" />
-                <element signature="e#75024#75025#0" expanded="false" />
-                <element signature="e#75093#75094#0" expanded="false" />
-                <element signature="e#75182#75183#0" expanded="false" />
-                <element signature="e#78702#78703#0" expanded="false" />
-                <element signature="e#78777#78778#0" expanded="false" />
-                <element signature="e#81388#81389#0" expanded="false" />
-                <element signature="e#81452#81453#0" expanded="false" />
-                <element signature="e#84649#84650#0" expanded="false" />
-                <element signature="e#84728#84729#0" expanded="false" />
-                <element signature="e#84811#84812#0" expanded="false" />
-                <element signature="e#84897#84898#0" expanded="false" />
-                <element signature="e#86432#86433#0" expanded="false" />
-                <element signature="e#86507#86508#0" expanded="false" />
-                <element signature="e#88081#88082#0" expanded="false" />
-                <element signature="e#88160#88161#0" expanded="false" />
-                <element signature="e#88243#88244#0" expanded="false" />
-                <element signature="e#88339#88340#0" expanded="false" />
-                <element signature="e#89892#89893#0" expanded="false" />
-                <element signature="e#89968#89969#0" expanded="false" />
-                <element signature="e#91306#91307#0" expanded="false" />
-                <element signature="e#91399#91400#0" expanded="false" />
-                <element signature="e#91476#91477#0" expanded="false" />
-                <element signature="e#91578#91579#0" expanded="false" />
-                <element signature="e#95755#95756#0" expanded="false" />
-                <element signature="e#95832#95833#0" expanded="false" />
-                <element signature="e#100100#100101#0" expanded="false" />
-                <element signature="e#100178#100179#0" expanded="false" />
-                <element signature="e#101895#101896#0" expanded="false" />
-                <element signature="e#101975#101976#0" expanded="false" />
-                <element signature="e#104074#104075#0" expanded="false" />
-                <element signature="e#104141#104142#0" expanded="false" />
-                <element signature="e#104218#104219#0" expanded="false" />
-                <element signature="e#104301#104302#0" expanded="false" />
-                <element signature="e#106383#106384#0" expanded="false" />
-                <element signature="e#106485#106486#0" expanded="false" />
-                <element signature="e#108347#108348#0" expanded="false" />
-                <element signature="e#108425#108426#0" expanded="false" />
-                <element signature="e#111844#111845#0" expanded="false" />
-                <element signature="e#111926#111927#0" expanded="false" />
-                <element signature="e#116520#116521#0" expanded="false" />
-                <element signature="e#116609#116610#0" expanded="false" />
-                <element signature="e#117968#117969#0" expanded="false" />
-                <element signature="e#118084#118085#0" expanded="false" />
-                <element signature="e#119565#119566#0" expanded="false" />
-                <element signature="e#119647#119648#0" expanded="false" />
-                <element signature="e#124647#124648#0" expanded="false" />
-                <element signature="e#124736#124737#0" expanded="false" />
-                <element signature="e#125671#125672#0" expanded="false" />
-                <element signature="e#125755#125756#0" expanded="false" />
-                <element signature="e#127244#127245#0" expanded="false" />
-                <element signature="e#127335#127336#0" expanded="false" />
-                <element signature="e#130831#130832#0" expanded="false" />
-                <element signature="e#130903#130904#0" expanded="false" />
-                <element signature="e#131402#131403#0" expanded="false" />
-                <element signature="e#131483#131484#0" expanded="false" />
-                <element signature="e#134246#134247#0" expanded="false" />
-                <element signature="e#134345#134346#0" expanded="false" />
-                <element signature="e#135131#135132#0" expanded="false" />
-                <element signature="e#135204#135205#0" expanded="false" />
-                <element signature="e#137885#137886#0" expanded="false" />
-                <element signature="e#138000#138001#0" expanded="false" />
-                <element signature="e#138845#138846#0" expanded="false" />
-                <element signature="e#138923#138924#0" expanded="false" />
-                <element signature="e#140148#140149#0" expanded="false" />
-                <element signature="e#140229#140230#0" expanded="false" />
-                <element signature="e#175822#175823#0" expanded="false" />
-                <element signature="e#175892#175893#0" expanded="false" />
-                <element signature="e#176452#176453#0" expanded="false" />
-                <element signature="e#176507#176508#0" expanded="false" />
-                <element signature="e#176966#176967#0" expanded="false" />
-                <element signature="e#177021#177022#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SMPCFunctions.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/me/shaftesbury/SMPCFunctions.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.28451177" vertical-offset="953" max-vertical-offset="3349">
-              <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+            <state relative-caret-position="287">
+              <caret line="54" column="15" selection-start-line="54" selection-start-column="15" selection-end-line="54" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Instrument.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/me/shaftesbury/Instrument.java">
+      <file leaf-file-name="MusicGeneratorTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/me/shaftesbury/music/test/MusicGeneratorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
-              <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#540#541#0" expanded="true" />
-                <element signature="e#599#600#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="153">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Calculator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/me/shaftesbury/Calculator.java">
+      <file leaf-file-name="GeneratorsTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/me/shaftesbury/music/test/GeneratorsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="4149" max-vertical-offset="4743">
-              <caret line="273" column="0" selection-start-line="273" selection-start-column="0" selection-end-line="273" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1641#1672#0" expanded="true" />
-                <element signature="e#2137#2427#0" expanded="true" />
-                <element signature="e#2426#2427#0" expanded="true" />
-                <element signature="e#9444#9466#0" expanded="true" />
-                <element signature="e#10406#10428#0" expanded="true" />
-                <element signature="e#11368#11390#0" expanded="true" />
-                <element signature="e#12328#12350#0" expanded="true" />
-                <element signature="e#13289#13311#0" expanded="true" />
-                <element signature="e#14242#14264#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Instruments.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/me/shaftesbury/Instruments.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
-              <caret line="15" column="124" selection-start-line="15" selection-start-column="124" selection-end-line="15" selection-end-column="124" />
+            <state relative-caret-position="283">
+              <caret line="59" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -233,42 +99,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Chord.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/me/shaftesbury/Chord.java">
+      <file leaf-file-name="NoteTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/me/shaftesbury/music/test/NoteTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1037" max-vertical-offset="1241">
-              <caret line="74" column="37" selection-start-line="74" selection-start-column="37" selection-end-line="74" selection-end-column="37" />
+            <state relative-caret-position="300">
+              <caret line="131" column="37" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EqualTemperedScale.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/me/shaftesbury/EqualTemperedScale.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="67" column="70" selection-start-line="67" selection-start-column="70" selection-end-line="67" selection-end-column="70" />
               <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#1034#1035#0" expanded="false" />
-                <element signature="e#1064#1065#0" expanded="false" />
-                <element signature="e#1349#1350#0" expanded="false" />
-                <element signature="e#1397#1398#0" expanded="false" />
-                <element signature="e#1923#1924#0" expanded="false" />
-                <element signature="e#1963#1964#0" expanded="false" />
-                <element signature="e#2220#2221#0" expanded="false" />
-                <element signature="e#2261#2262#0" expanded="false" />
+                <element signature="e#2385#2580#0" expanded="true" />
+                <element signature="e#2579#2580#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Chords.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/me/shaftesbury/Chords.java">
+      <file leaf-file-name="MusicGenerator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/me/shaftesbury/MusicGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1876" max-vertical-offset="2278">
-              <caret line="173" column="29" selection-start-line="173" selection-start-column="29" selection-end-line="173" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Iterators.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/18.0/guava-18.0.jar!/com/google/common/collect/Iterators.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="9299" max-vertical-offset="10693">
-              <caret line="638" column="42" selection-start-line="638" selection-start-column="42" selection-end-line="638" selection-end-column="42" />
-              <folding />
+            <state relative-caret-position="486">
+              <caret line="32" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <folding>
+                <marker date="1459180573707" expanded="false" signature="1019:1025" placeholder="&lt;~&gt;" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -276,14 +137,52 @@
       <file leaf-file-name="Note.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/me/shaftesbury/Note.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1989" max-vertical-offset="2142">
-              <caret line="129" column="36" selection-start-line="129" selection-start-column="36" selection-end-line="129" selection-end-column="36" />
+            <state relative-caret-position="231">
+              <caret line="124" column="26" selection-start-line="124" selection-start-column="23" selection-end-line="124" selection-end-column="35" />
               <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#1384#1385#0" expanded="false" />
-                <element signature="e#1473#1474#0" expanded="false" />
-                <element signature="e#1934#1935#0" expanded="false" />
-                <element signature="e#1994#1995#0" expanded="false" />
+                <element signature="e#1618#1817#0" expanded="true" />
+                <element signature="e#1816#1817#0" expanded="true" />
+                <element signature="e#2549#2565#0" expanded="true" />
+                <element signature="e#2645#2661#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CircularArrayList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/me/shaftesbury/CircularArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="8" column="29" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CircularArrayListTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/me/shaftesbury/music/test/CircularArrayListTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="15" column="92" selection-start-line="15" selection-start-column="92" selection-end-line="15" selection-end-column="92" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1459365906035" expanded="false" signature="804:813" placeholder="&lt;~&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PitchClass.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/me/shaftesbury/PitchClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="249">
+              <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2536#2734#0" expanded="true" />
+                <element signature="e#2733#2734#0" expanded="true" />
+                <element signature="e#3034#3232#0" expanded="true" />
+                <element signature="e#3231#3232#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -291,18 +190,64 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/me/shaftesbury/Generators.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/me/shaftesbury/Chord.java" />
         <option value="$PROJECT_DIR$/src/main/me/shaftesbury/Chords.java" />
         <option value="$PROJECT_DIR$/src/main/me/shaftesbury/Calculator.java" />
         <option value="$PROJECT_DIR$/src/main/me/shaftesbury/Instruments.java" />
         <option value="$PROJECT_DIR$/src/main/me/shaftesbury/Instrument.java" />
         <option value="$PROJECT_DIR$/src/main/me/shaftesbury/SMPCFunctions.java" />
+        <option value="$PROJECT_DIR$/src/main/me/shaftesbury/MajorScale.java" />
+        <option value="$PROJECT_DIR$/src/main/me/shaftesbury/MinorScale.java" />
+        <option value="$PROJECT_DIR$/src/main/me/shaftesbury/HungarianMinorScale.java" />
+        <option value="$PROJECT_DIR$/src/main/me/shaftesbury/Step.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/me/shaftesbury/music/test/PItchClassTest.java" />
+        <option value="$PROJECT_DIR$/src/main/me/shaftesbury/MusicGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/me/shaftesbury/PitchClassInternal.java" />
+        <option value="$PROJECT_DIR$/src/test/me/shaftesbury/music/test/MajorScaleTest.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/test/me/shaftesbury/music/test/MinorScaleTest.java" />
+        <option value="$PROJECT_DIR$/src/test/me/shaftesbury/music/test/PitchClassTest.java" />
+        <option value="$PROJECT_DIR$/src/test/me/shaftesbury/music/test/NoteTest.java" />
+        <option value="$PROJECT_DIR$/src/main/me/shaftesbury/PitchClass.java" />
+        <option value="$PROJECT_DIR$/src/main/me/shaftesbury/CircularArrayList.java" />
+        <option value="$PROJECT_DIR$/src/test/me/shaftesbury/music/test/CircularArrayListTest.java" />
+        <option value="$PROJECT_DIR$/src/main/me/shaftesbury/Scale.java" />
+        <option value="$PROJECT_DIR$/src/main/me/shaftesbury/Generators.java" />
+        <option value="$PROJECT_DIR$/src/main/me/shaftesbury/Note.java" />
+        <option value="$PROJECT_DIR$/src/main/me/shaftesbury/EqualTemperedScale.java" />
+        <option value="$PROJECT_DIR$/src/test/me/shaftesbury/music/test/GeneratorsTest.java" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectFrameBounds">
@@ -311,7 +256,7 @@
     <option name="width" value="1364" />
     <option name="height" value="766" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -332,8 +277,13 @@
       <autoscrollToSource />
       <autoscrollFromSource />
       <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -365,6 +315,14 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -377,10 +335,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -408,8 +362,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -422,57 +374,171 @@
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/me/shaftesbury" />
-    <property name="FullScreen" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Bob\development\MusicGenerator\src\resources" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Bob\development\MusicGenerator\src\resources" />
       <recent name="C:\Users\Bob\development\MusicGenerator\src\main" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="me.shaftesbury.music.test" />
       <recent name="me.shaftesbury" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Bob\development\MusicGenerator\src\resources" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.SMPCFunctions">
-    <configuration default="false" name="MusicGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.GeneratorsTest">
+    <configuration default="false" name="GeneratorsTest.findNextChromaticNoteUp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="me.shaftesbury.*" />
+          <option name="PATTERN" value="me.shaftesbury.music.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="me.shaftesbury.MusicGenerator" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <module name="MusicGenerator" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="PACKAGE_NAME" value="me.shaftesbury.music.test" />
+      <option name="MAIN_CLASS_NAME" value="me.shaftesbury.music.test.GeneratorsTest" />
+      <option name="METHOD_NAME" value="findNextChromaticNoteUp" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="MusicGenerator" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
       <envs />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="SMPCFunctions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="GeneratorsTest.findNextChromaticNoteDown" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="me.shaftesbury.*" />
+          <option name="PATTERN" value="me.shaftesbury.music.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="me.shaftesbury.SMPCFunctions" />
+      <module name="MusicGenerator" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="me.shaftesbury.music.test" />
+      <option name="MAIN_CLASS_NAME" value="me.shaftesbury.music.test.GeneratorsTest" />
+      <option name="METHOD_NAME" value="findNextChromaticNoteDown" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="CircularArrayListTest.CircularArrayListInitialiseTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="me.shaftesbury.music.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="MusicGenerator" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="me.shaftesbury.music.test" />
+      <option name="MAIN_CLASS_NAME" value="me.shaftesbury.music.test.CircularArrayListTest" />
+      <option name="METHOD_NAME" value="CircularArrayListInitialiseTest1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="GeneratorsTest.findNextScaleNoteUp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="me.shaftesbury.music.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="MusicGenerator" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="me.shaftesbury.music.test" />
+      <option name="MAIN_CLASS_NAME" value="me.shaftesbury.music.test.GeneratorsTest" />
+      <option name="METHOD_NAME" value="findNextScaleNoteUp" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="GeneratorsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="me.shaftesbury.music.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="MusicGenerator" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="me.shaftesbury.music.test" />
+      <option name="MAIN_CLASS_NAME" value="me.shaftesbury.music.test.GeneratorsTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -481,10 +547,24 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="MusicGenerator" />
+      <module name="" />
       <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -508,47 +588,71 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="MusicGenerator" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
@@ -573,24 +677,12 @@
       </MavenSettings>
       <method />
     </configuration>
-    <configuration default="true" type="JarApplication" factoryName="JAR Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -621,18 +713,54 @@
       <listeners />
       <method />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Application.MusicGenerator" />
-      <item index="1" class="java.lang.String" itemvalue="Application.SMPCFunctions" />
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.GeneratorsTest.findNextChromaticNoteUp" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.GeneratorsTest.findNextChromaticNoteDown" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.CircularArrayListTest.CircularArrayListInitialiseTest1" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.GeneratorsTest.findNextScaleNoteUp" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.GeneratorsTest" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.SMPCFunctions" />
-        <item index="1" class="java.lang.String" itemvalue="Application.MusicGenerator" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.GeneratorsTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.GeneratorsTest.findNextScaleNoteUp" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.GeneratorsTest.findNextChromaticNoteDown" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CircularArrayListTest.CircularArrayListInitialiseTest1" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.GeneratorsTest.findNextChromaticNoteUp" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -641,40 +769,116 @@
       <changelist id="3a8f59ed-8f6b-4207-84f8-91ace9de3fef" name="Default" comment="" />
       <created>1414525775210</created>
       <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
       <updated>1414525775210</updated>
     </task>
+    <task id="LOCAL-00001" summary="First commit of Phase 2">
+      <created>1459183560762</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1459183560762</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added major scale test">
+      <created>1459188550138</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1459188550138</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added minor scale test">
+      <created>1459189356610</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1459189356610</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added some equality fixes and more tests">
+      <created>1459319025645</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1459319025645</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add a test for the frequency of Middle C">
+      <created>1459361996810</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1459361996810</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add Generators for Chromatic Up and Chromatic Down">
+      <created>1459365991572</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1459365991572</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="CircularArrayListTest_CircularArrayListInitialiseTest1 - 2016.03.30 at 20h 24m 41s.xml">
+      <configuration name="CircularArrayListTest.CircularArrayListInitialiseTest1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CircularArrayListTest_CircularArrayListInitialiseTest1 - 2016.03.30 at 20h 25m 08s.xml">
+      <configuration name="CircularArrayListTest.CircularArrayListInitialiseTest1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GeneratorsTest - 2016.03.31 at 07h 24m 45s.xml">
+      <configuration name="GeneratorsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GeneratorsTest_findNextChromaticNoteDown - 2016.03.30 at 20h 14m 59s.xml">
+      <configuration name="GeneratorsTest.findNextChromaticNoteDown" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GeneratorsTest_findNextChromaticNoteDown - 2016.03.30 at 20h 19m 20s.xml">
+      <configuration name="GeneratorsTest.findNextChromaticNoteDown" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GeneratorsTest_findNextChromaticNoteDown - 2016.03.30 at 20h 20m 12s.xml">
+      <configuration name="GeneratorsTest.findNextChromaticNoteDown" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GeneratorsTest_findNextChromaticNoteDown - 2016.03.30 at 20h 25m 30s.xml">
+      <configuration name="GeneratorsTest.findNextChromaticNoteDown" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GeneratorsTest_findNextChromaticNoteUp - 2016.03.30 at 20h 14m 06s.xml">
+      <configuration name="GeneratorsTest.findNextChromaticNoteUp" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GeneratorsTest_findNextChromaticNoteUp - 2016.03.30 at 20h 14m 33s.xml">
+      <configuration name="GeneratorsTest.findNextChromaticNoteUp" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GeneratorsTest_findNextScaleNoteUp - 2016.03.30 at 20h 37m 58s.xml">
+      <configuration name="GeneratorsTest.findNextScaleNoteUp" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1364" height="766" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32283464" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="31" y="88" width="504" height="644" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3270142" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3206951" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="31" y="88" width="504" height="644" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3270142" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39968404" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -689,13 +893,25 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="myTodoPanelSettings">
-      <TodoPanelSettings />
-    </option>
+    <MESSAGE value="First commit of Phase 2" />
+    <MESSAGE value="Added major scale test" />
+    <MESSAGE value="Added minor scale test" />
+    <MESSAGE value="Added some equality fixes and more tests" />
+    <MESSAGE value="Add a test for the frequency of Middle C" />
+    <MESSAGE value="Add Generators for Chromatic Up and Chromatic Down" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Generators for Chromatic Up and Chromatic Down" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="10" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/me/shaftesbury/music/test/NoteTest.java</url>
+          <line>94</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="12" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -704,859 +920,466 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/me/shaftesbury/MusicGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="663">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/me/shaftesbury/Functional-Utils-Java/1.17/Functional-Utils-Java-1.17-sources.jar!/me/shaftesbury/utils/functional/Functional.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3230" max-vertical-offset="59007">
-          <caret line="202" column="0" selection-start-line="202" selection-start-column="0" selection-end-line="202" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#665#666#0" expanded="false" />
-            <element signature="e#710#711#0" expanded="false" />
-            <element signature="e#2435#2436#0" expanded="false" />
-            <element signature="e#2507#2508#0" expanded="false" />
-            <element signature="e#2688#2689#0" expanded="false" />
-            <element signature="e#2738#2739#0" expanded="false" />
-            <element signature="e#7676#7677#0" expanded="false" />
-            <element signature="e#7739#7740#0" expanded="false" />
-            <element signature="e#11978#11979#0" expanded="false" />
-            <element signature="e#12045#12046#0" expanded="false" />
-            <element signature="e#14262#14263#0" expanded="false" />
-            <element signature="e#14325#14326#0" expanded="false" />
-            <element signature="e#15023#15024#0" expanded="false" />
-            <element signature="e#15060#15061#0" expanded="false" />
-            <element signature="e#16006#16007#0" expanded="false" />
-            <element signature="e#16064#16065#0" expanded="false" />
-            <element signature="e#17602#17603#0" expanded="false" />
-            <element signature="e#17642#17643#0" expanded="false" />
-            <element signature="e#17998#17999#0" expanded="false" />
-            <element signature="e#18039#18040#0" expanded="false" />
-            <element signature="e#18381#18382#0" expanded="false" />
-            <element signature="e#18422#18423#0" expanded="false" />
-            <element signature="e#18752#18753#0" expanded="false" />
-            <element signature="e#18808#18809#0" expanded="false" />
-            <element signature="e#19113#19114#0" expanded="false" />
-            <element signature="e#19153#19154#0" expanded="false" />
-            <element signature="e#19631#19632#0" expanded="false" />
-            <element signature="e#19691#19692#0" expanded="false" />
-            <element signature="e#20198#20199#0" expanded="false" />
-            <element signature="e#20259#20260#0" expanded="false" />
-            <element signature="e#20741#20742#0" expanded="false" />
-            <element signature="e#20801#20802#0" expanded="false" />
-            <element signature="e#21302#21303#0" expanded="false" />
-            <element signature="e#21363#21364#0" expanded="false" />
-            <element signature="e#24670#24671#0" expanded="false" />
-            <element signature="e#24732#24733#0" expanded="false" />
-            <element signature="e#27058#27059#0" expanded="false" />
-            <element signature="e#27121#27122#0" expanded="false" />
-            <element signature="e#33206#33207#0" expanded="false" />
-            <element signature="e#33271#33272#0" expanded="false" />
-            <element signature="e#34773#34774#0" expanded="false" />
-            <element signature="e#34838#34839#0" expanded="false" />
-            <element signature="e#36737#36738#0" expanded="false" />
-            <element signature="e#36802#36803#0" expanded="false" />
-            <element signature="e#40057#40058#0" expanded="false" />
-            <element signature="e#40125#40126#0" expanded="false" />
-            <element signature="e#42377#42378#0" expanded="false" />
-            <element signature="e#42443#42444#0" expanded="false" />
-            <element signature="e#44113#44114#0" expanded="false" />
-            <element signature="e#44191#44192#0" expanded="false" />
-            <element signature="e#54558#54559#0" expanded="false" />
-            <element signature="e#54627#54628#0" expanded="false" />
-            <element signature="e#56404#56405#0" expanded="false" />
-            <element signature="e#56481#56482#0" expanded="false" />
-            <element signature="e#58589#58590#0" expanded="false" />
-            <element signature="e#58659#58660#0" expanded="false" />
-            <element signature="e#60736#60737#0" expanded="false" />
-            <element signature="e#60813#60814#0" expanded="false" />
-            <element signature="e#61382#61383#0" expanded="false" />
-            <element signature="e#61429#61430#0" expanded="false" />
-            <element signature="e#62051#62052#0" expanded="false" />
-            <element signature="e#62144#62145#0" expanded="false" />
-            <element signature="e#71921#71922#0" expanded="false" />
-            <element signature="e#71987#71988#0" expanded="false" />
-            <element signature="e#73899#73900#0" expanded="false" />
-            <element signature="e#73954#73955#0" expanded="false" />
-            <element signature="e#74939#74940#0" expanded="false" />
-            <element signature="e#75024#75025#0" expanded="false" />
-            <element signature="e#75093#75094#0" expanded="false" />
-            <element signature="e#75182#75183#0" expanded="false" />
-            <element signature="e#78702#78703#0" expanded="false" />
-            <element signature="e#78777#78778#0" expanded="false" />
-            <element signature="e#81388#81389#0" expanded="false" />
-            <element signature="e#81452#81453#0" expanded="false" />
-            <element signature="e#84649#84650#0" expanded="false" />
-            <element signature="e#84728#84729#0" expanded="false" />
-            <element signature="e#84811#84812#0" expanded="false" />
-            <element signature="e#84897#84898#0" expanded="false" />
-            <element signature="e#86432#86433#0" expanded="false" />
-            <element signature="e#86507#86508#0" expanded="false" />
-            <element signature="e#88081#88082#0" expanded="false" />
-            <element signature="e#88160#88161#0" expanded="false" />
-            <element signature="e#88243#88244#0" expanded="false" />
-            <element signature="e#88339#88340#0" expanded="false" />
-            <element signature="e#89892#89893#0" expanded="false" />
-            <element signature="e#89968#89969#0" expanded="false" />
-            <element signature="e#91306#91307#0" expanded="false" />
-            <element signature="e#91399#91400#0" expanded="false" />
-            <element signature="e#91476#91477#0" expanded="false" />
-            <element signature="e#91578#91579#0" expanded="false" />
-            <element signature="e#95755#95756#0" expanded="false" />
-            <element signature="e#95832#95833#0" expanded="false" />
-            <element signature="e#100100#100101#0" expanded="false" />
-            <element signature="e#100178#100179#0" expanded="false" />
-            <element signature="e#101895#101896#0" expanded="false" />
-            <element signature="e#101975#101976#0" expanded="false" />
-            <element signature="e#104074#104075#0" expanded="false" />
-            <element signature="e#104141#104142#0" expanded="false" />
-            <element signature="e#104218#104219#0" expanded="false" />
-            <element signature="e#104301#104302#0" expanded="false" />
-            <element signature="e#106383#106384#0" expanded="false" />
-            <element signature="e#106485#106486#0" expanded="false" />
-            <element signature="e#108347#108348#0" expanded="false" />
-            <element signature="e#108425#108426#0" expanded="false" />
-            <element signature="e#111844#111845#0" expanded="false" />
-            <element signature="e#111926#111927#0" expanded="false" />
-            <element signature="e#116520#116521#0" expanded="false" />
-            <element signature="e#116609#116610#0" expanded="false" />
-            <element signature="e#117968#117969#0" expanded="false" />
-            <element signature="e#118084#118085#0" expanded="false" />
-            <element signature="e#119565#119566#0" expanded="false" />
-            <element signature="e#119647#119648#0" expanded="false" />
-            <element signature="e#124647#124648#0" expanded="false" />
-            <element signature="e#124736#124737#0" expanded="false" />
-            <element signature="e#125671#125672#0" expanded="false" />
-            <element signature="e#125755#125756#0" expanded="false" />
-            <element signature="e#127244#127245#0" expanded="false" />
-            <element signature="e#127335#127336#0" expanded="false" />
-            <element signature="e#130831#130832#0" expanded="false" />
-            <element signature="e#130903#130904#0" expanded="false" />
-            <element signature="e#131402#131403#0" expanded="false" />
-            <element signature="e#131483#131484#0" expanded="false" />
-            <element signature="e#134246#134247#0" expanded="false" />
-            <element signature="e#134345#134346#0" expanded="false" />
-            <element signature="e#135131#135132#0" expanded="false" />
-            <element signature="e#135204#135205#0" expanded="false" />
-            <element signature="e#137885#137886#0" expanded="false" />
-            <element signature="e#138000#138001#0" expanded="false" />
-            <element signature="e#138845#138846#0" expanded="false" />
-            <element signature="e#138923#138924#0" expanded="false" />
-            <element signature="e#140148#140149#0" expanded="false" />
-            <element signature="e#140229#140230#0" expanded="false" />
-            <element signature="e#175822#175823#0" expanded="false" />
-            <element signature="e#175892#175893#0" expanded="false" />
-            <element signature="e#176452#176453#0" expanded="false" />
-            <element signature="e#176507#176508#0" expanded="false" />
-            <element signature="e#176966#176967#0" expanded="false" />
-            <element signature="e#177021#177022#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/me/shaftesbury/Functional-Utils-Java/1.17/Functional-Utils-Java-1.17-sources.jar!/me/shaftesbury/utils/functional/IterableHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="363" max-vertical-offset="1989">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/me/shaftesbury/Generators.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1088">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/me/shaftesbury/MajorScale.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="425">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/me/shaftesbury/MinorScale.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="425">
+        <state relative-caret-position="0">
           <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/me/shaftesbury/Step.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="187">
+        <state relative-caret-position="0">
           <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/me/shaftesbury/Note.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1989" max-vertical-offset="2142">
+        <state relative-caret-position="0">
           <caret line="129" column="36" selection-start-line="129" selection-start-column="36" selection-end-line="129" selection-end-column="36" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1384#1385#0" expanded="false" />
-            <element signature="e#1473#1474#0" expanded="false" />
-            <element signature="e#1934#1935#0" expanded="false" />
-            <element signature="e#1994#1995#0" expanded="false" />
+            <element signature="e#1618#1817#0" expanded="true" />
+            <element signature="e#1816#1817#0" expanded="true" />
+            <element signature="e#2549#2565#0" expanded="true" />
+            <element signature="e#2645#2661#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/me/shaftesbury/CircularArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="578">
+        <state relative-caret-position="0">
           <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/me/shaftesbury/MusicGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="663">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/me/shaftesbury/Functional-Utils-Java/1.17/Functional-Utils-Java-1.17-sources.jar!/me/shaftesbury/utils/functional/Functional.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2964" max-vertical-offset="55148">
-          <caret line="202" column="0" selection-start-line="202" selection-start-column="0" selection-end-line="202" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#665#666#0" expanded="false" />
-            <element signature="e#710#711#0" expanded="false" />
-            <element signature="e#2435#2436#0" expanded="false" />
-            <element signature="e#2507#2508#0" expanded="false" />
-            <element signature="e#2688#2689#0" expanded="false" />
-            <element signature="e#2738#2739#0" expanded="false" />
-            <element signature="e#7676#7677#0" expanded="false" />
-            <element signature="e#7739#7740#0" expanded="false" />
-            <element signature="e#11978#11979#0" expanded="false" />
-            <element signature="e#12045#12046#0" expanded="false" />
-            <element signature="e#14262#14263#0" expanded="false" />
-            <element signature="e#14325#14326#0" expanded="false" />
-            <element signature="e#15023#15024#0" expanded="false" />
-            <element signature="e#15060#15061#0" expanded="false" />
-            <element signature="e#16006#16007#0" expanded="false" />
-            <element signature="e#16064#16065#0" expanded="false" />
-            <element signature="e#17602#17603#0" expanded="false" />
-            <element signature="e#17642#17643#0" expanded="false" />
-            <element signature="e#17998#17999#0" expanded="false" />
-            <element signature="e#18039#18040#0" expanded="false" />
-            <element signature="e#18381#18382#0" expanded="false" />
-            <element signature="e#18422#18423#0" expanded="false" />
-            <element signature="e#18752#18753#0" expanded="false" />
-            <element signature="e#18808#18809#0" expanded="false" />
-            <element signature="e#19113#19114#0" expanded="false" />
-            <element signature="e#19153#19154#0" expanded="false" />
-            <element signature="e#19631#19632#0" expanded="false" />
-            <element signature="e#19691#19692#0" expanded="false" />
-            <element signature="e#20198#20199#0" expanded="false" />
-            <element signature="e#20259#20260#0" expanded="false" />
-            <element signature="e#20741#20742#0" expanded="false" />
-            <element signature="e#20801#20802#0" expanded="false" />
-            <element signature="e#21302#21303#0" expanded="false" />
-            <element signature="e#21363#21364#0" expanded="false" />
-            <element signature="e#24670#24671#0" expanded="false" />
-            <element signature="e#24732#24733#0" expanded="false" />
-            <element signature="e#27058#27059#0" expanded="false" />
-            <element signature="e#27121#27122#0" expanded="false" />
-            <element signature="e#33206#33207#0" expanded="false" />
-            <element signature="e#33271#33272#0" expanded="false" />
-            <element signature="e#34773#34774#0" expanded="false" />
-            <element signature="e#34838#34839#0" expanded="false" />
-            <element signature="e#36737#36738#0" expanded="false" />
-            <element signature="e#36802#36803#0" expanded="false" />
-            <element signature="e#40057#40058#0" expanded="false" />
-            <element signature="e#40125#40126#0" expanded="false" />
-            <element signature="e#42377#42378#0" expanded="false" />
-            <element signature="e#42443#42444#0" expanded="false" />
-            <element signature="e#44113#44114#0" expanded="false" />
-            <element signature="e#44191#44192#0" expanded="false" />
-            <element signature="e#54558#54559#0" expanded="false" />
-            <element signature="e#54627#54628#0" expanded="false" />
-            <element signature="e#56404#56405#0" expanded="false" />
-            <element signature="e#56481#56482#0" expanded="false" />
-            <element signature="e#58589#58590#0" expanded="false" />
-            <element signature="e#58659#58660#0" expanded="false" />
-            <element signature="e#60736#60737#0" expanded="false" />
-            <element signature="e#60813#60814#0" expanded="false" />
-            <element signature="e#61382#61383#0" expanded="false" />
-            <element signature="e#61429#61430#0" expanded="false" />
-            <element signature="e#62051#62052#0" expanded="false" />
-            <element signature="e#62144#62145#0" expanded="false" />
-            <element signature="e#71921#71922#0" expanded="false" />
-            <element signature="e#71987#71988#0" expanded="false" />
-            <element signature="e#73899#73900#0" expanded="false" />
-            <element signature="e#73954#73955#0" expanded="false" />
-            <element signature="e#74939#74940#0" expanded="false" />
-            <element signature="e#75024#75025#0" expanded="false" />
-            <element signature="e#75093#75094#0" expanded="false" />
-            <element signature="e#75182#75183#0" expanded="false" />
-            <element signature="e#78702#78703#0" expanded="false" />
-            <element signature="e#78777#78778#0" expanded="false" />
-            <element signature="e#81388#81389#0" expanded="false" />
-            <element signature="e#81452#81453#0" expanded="false" />
-            <element signature="e#84649#84650#0" expanded="false" />
-            <element signature="e#84728#84729#0" expanded="false" />
-            <element signature="e#84811#84812#0" expanded="false" />
-            <element signature="e#84897#84898#0" expanded="false" />
-            <element signature="e#86432#86433#0" expanded="false" />
-            <element signature="e#86507#86508#0" expanded="false" />
-            <element signature="e#88081#88082#0" expanded="false" />
-            <element signature="e#88160#88161#0" expanded="false" />
-            <element signature="e#88243#88244#0" expanded="false" />
-            <element signature="e#88339#88340#0" expanded="false" />
-            <element signature="e#89892#89893#0" expanded="false" />
-            <element signature="e#89968#89969#0" expanded="false" />
-            <element signature="e#91306#91307#0" expanded="false" />
-            <element signature="e#91399#91400#0" expanded="false" />
-            <element signature="e#91476#91477#0" expanded="false" />
-            <element signature="e#91578#91579#0" expanded="false" />
-            <element signature="e#95755#95756#0" expanded="false" />
-            <element signature="e#95832#95833#0" expanded="false" />
-            <element signature="e#100100#100101#0" expanded="false" />
-            <element signature="e#100178#100179#0" expanded="false" />
-            <element signature="e#101895#101896#0" expanded="false" />
-            <element signature="e#101975#101976#0" expanded="false" />
-            <element signature="e#104074#104075#0" expanded="false" />
-            <element signature="e#104141#104142#0" expanded="false" />
-            <element signature="e#104218#104219#0" expanded="false" />
-            <element signature="e#104301#104302#0" expanded="false" />
-            <element signature="e#106383#106384#0" expanded="false" />
-            <element signature="e#106485#106486#0" expanded="false" />
-            <element signature="e#108347#108348#0" expanded="false" />
-            <element signature="e#108425#108426#0" expanded="false" />
-            <element signature="e#111844#111845#0" expanded="false" />
-            <element signature="e#111926#111927#0" expanded="false" />
-            <element signature="e#116520#116521#0" expanded="false" />
-            <element signature="e#116609#116610#0" expanded="false" />
-            <element signature="e#117968#117969#0" expanded="false" />
-            <element signature="e#118084#118085#0" expanded="false" />
-            <element signature="e#119565#119566#0" expanded="false" />
-            <element signature="e#119647#119648#0" expanded="false" />
-            <element signature="e#124647#124648#0" expanded="false" />
-            <element signature="e#124736#124737#0" expanded="false" />
-            <element signature="e#125671#125672#0" expanded="false" />
-            <element signature="e#125755#125756#0" expanded="false" />
-            <element signature="e#127244#127245#0" expanded="false" />
-            <element signature="e#127335#127336#0" expanded="false" />
-            <element signature="e#130831#130832#0" expanded="false" />
-            <element signature="e#130903#130904#0" expanded="false" />
-            <element signature="e#131402#131403#0" expanded="false" />
-            <element signature="e#131483#131484#0" expanded="false" />
-            <element signature="e#134246#134247#0" expanded="false" />
-            <element signature="e#134345#134346#0" expanded="false" />
-            <element signature="e#135131#135132#0" expanded="false" />
-            <element signature="e#135204#135205#0" expanded="false" />
-            <element signature="e#137885#137886#0" expanded="false" />
-            <element signature="e#138000#138001#0" expanded="false" />
-            <element signature="e#138845#138846#0" expanded="false" />
-            <element signature="e#138923#138924#0" expanded="false" />
-            <element signature="e#140148#140149#0" expanded="false" />
-            <element signature="e#140229#140230#0" expanded="false" />
-            <element signature="e#175822#175823#0" expanded="false" />
-            <element signature="e#175892#175893#0" expanded="false" />
-            <element signature="e#176452#176453#0" expanded="false" />
-            <element signature="e#176507#176508#0" expanded="false" />
-            <element signature="e#176966#176967#0" expanded="false" />
-            <element signature="e#177021#177022#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/me/shaftesbury/Functional-Utils-Java/1.17/Functional-Utils-Java-1.17-sources.jar!/me/shaftesbury/utils/functional/IterableHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="363" max-vertical-offset="1989">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/me/shaftesbury/Generators.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1088">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/me/shaftesbury/Scale.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="1207">
-          <caret line="51" column="33" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/me/shaftesbury/MajorScale.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="425">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/me/shaftesbury/MinorScale.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="425">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/me/shaftesbury/Step.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="187">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/me/shaftesbury/Note.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1703" max-vertical-offset="2346">
-          <caret line="129" column="36" selection-start-line="129" selection-start-column="36" selection-end-line="129" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1384#1385#0" expanded="false" />
-            <element signature="e#1473#1474#0" expanded="false" />
-            <element signature="e#1934#1935#0" expanded="false" />
-            <element signature="e#1994#1995#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/me/shaftesbury/CircularArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="663">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_51/src.zip!/java/util/Queue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1785" max-vertical-offset="3247">
+        <state relative-caret-position="0">
           <caret line="143" column="17" selection-start-line="143" selection-start-column="17" selection-end-line="143" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_51/src.zip!/java/util/Deque.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2518" max-vertical-offset="9469">
+        <state relative-caret-position="0">
           <caret line="193" column="17" selection-start-line="193" selection-start-column="17" selection-end-line="193" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_51/src.zip!/org/omg/DynamicAny/DynUnion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5881384" vertical-offset="0" max-vertical-offset="607">
+        <state relative-caret-position="0">
           <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_51/src.zip!/javax/lang/model/type/TypeMirror.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1530">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_51/src.zip!/javax/lang/model/type/UnionType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42009884" vertical-offset="0" max-vertical-offset="607">
+        <state relative-caret-position="0">
           <caret line="38" column="43" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_51/src.zip!/java/util/Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="46939" max-vertical-offset="61472">
+        <state relative-caret-position="0">
           <caret line="2826" column="30" selection-start-line="2826" selection-start-column="30" selection-end-line="2826" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_51/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3360791" vertical-offset="2312" max-vertical-offset="18921">
-          <caret line="171" column="13" selection-start-line="171" selection-start-column="13" selection-end-line="171" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_51/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="9304" max-vertical-offset="9911">
+        <state relative-caret-position="0">
           <caret line="598" column="12" selection-start-line="598" selection-start-column="12" selection-end-line="598" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/me/shaftesbury/Functional-Utils-Java/1.17/Functional-Utils-Java-1.17-sources.jar!/me/shaftesbury/utils/functional/Iterators.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33278418" vertical-offset="53" max-vertical-offset="1547">
+        <state relative-caret-position="0">
           <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/me/shaftesbury/music/test/MusicGeneratorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/javatuples/javatuples/1.2/javatuples-1.2-sources.jar!/org/javatuples/Pair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="397" max-vertical-offset="10489">
-          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/me/shaftesbury/Step.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/me/shaftesbury/Functional-Utils-Java/1.17/Functional-Utils-Java-1.17-sources.jar!/me/shaftesbury/utils/functional/Iterable2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33278418" vertical-offset="138" max-vertical-offset="901">
+        <state relative-caret-position="0">
           <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/me/shaftesbury/Functional-Utils-Java/1.17/Functional-Utils-Java-1.17-sources.jar!/me/shaftesbury/utils/functional/IterableHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="363" max-vertical-offset="1989">
+        <state relative-caret-position="0">
           <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/me/shaftesbury/Scale.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/18.0/guava-18.0.jar!/com/google/common/collect/Iterables.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="1207">
-          <caret line="51" column="33" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
+        <state relative-caret-position="0">
+          <caret line="454" column="34" selection-start-line="454" selection-start-column="34" selection-end-line="454" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/me/shaftesbury/MusicGenerator.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/18.0/guava-18.0.jar!/com/google/common/collect/Iterators.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+        <state relative-caret-position="0">
+          <caret line="638" column="42" selection-start-line="638" selection-start-column="42" selection-end-line="638" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/me/shaftesbury/MajorScale.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_51/src.zip!/java/lang/Math.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="53" max-vertical-offset="425">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="86" column="19" selection-start-line="86" selection-start-column="19" selection-end-line="86" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/me/shaftesbury/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/me/shaftesbury/Chord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="47" column="37" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/me/shaftesbury/Chords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="173" column="29" selection-start-line="173" selection-start-column="29" selection-end-line="173" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/me/shaftesbury/Instrument.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/me/shaftesbury/Instruments.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="15" column="124" selection-start-line="15" selection-start-column="124" selection-end-line="15" selection-end-column="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_51/src.zip!/java/lang/Iterable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/me/shaftesbury/MinorScale.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        <state relative-caret-position="0">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/me/shaftesbury/Generators.java">
+    <entry file="file://$PROJECT_DIR$/src/main/me/shaftesbury/HungarianMinorScale.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="1360">
-          <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+        <state relative-caret-position="0">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/me/shaftesbury/Step.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/me/shaftesbury/Functional-Utils-Java/1.17/Functional-Utils-Java-1.17-sources.jar!/me/shaftesbury/utils/functional/Functional.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="40" column="42" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_51/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1326">
+          <caret line="101" column="13" selection-start-line="101" selection-start-column="13" selection-end-line="101" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#42430#0" expanded="false" />
+            <element signature="e#9376#9377#0" expanded="false" />
+            <element signature="e#9403#9404#0" expanded="false" />
+            <element signature="e#9585#9586#0" expanded="false" />
+            <element signature="e#9617#9618#0" expanded="false" />
+            <element signature="e#10094#10095#0" expanded="false" />
+            <element signature="e#10132#10133#0" expanded="false" />
+            <element signature="e#12774#12775#0" expanded="false" />
+            <element signature="e#12829#12830#0" expanded="false" />
+            <element signature="e#14647#14648#0" expanded="false" />
+            <element signature="e#14692#14693#0" expanded="false" />
+            <element signature="e#23782#23783#0" expanded="false" />
+            <element signature="e#23836#23837#0" expanded="false" />
+            <element signature="e#24679#24680#0" expanded="false" />
+            <element signature="e#24723#24724#0" expanded="false" />
+            <element signature="e#25680#25681#0" expanded="false" />
+            <element signature="e#25723#25724#0" expanded="false" />
+            <element signature="e#29510#29511#0" expanded="false" />
+            <element signature="e#29547#29548#0" expanded="false" />
+            <element signature="e#29847#29848#0" expanded="false" />
+            <element signature="e#29879#29880#0" expanded="false" />
+            <element signature="e#30204#30205#0" expanded="false" />
+            <element signature="e#30249#30250#0" expanded="false" />
+            <element signature="e#31610#31611#0" expanded="false" />
+            <element signature="e#31652#31653#0" expanded="false" />
+            <element signature="e#31686#31687#0" expanded="false" />
+            <element signature="e#31723#31724#0" expanded="false" />
+            <element signature="e#31761#31762#0" expanded="false" />
+            <element signature="e#31802#31803#0" expanded="false" />
+            <element signature="e#37291#37292#0" expanded="false" />
+            <element signature="e#37342#37343#0" expanded="false" />
+            <element signature="e#37784#37785#0" expanded="false" />
+            <element signature="e#37829#37830#0" expanded="false" />
+            <element signature="e#38234#38235#0" expanded="false" />
+            <element signature="e#38308#38309#0" expanded="false" />
+            <element signature="e#38948#38949#0" expanded="false" />
+            <element signature="e#39006#39007#0" expanded="false" />
+            <element signature="e#39627#39628#0" expanded="false" />
+            <element signature="e#39680#39681#0" expanded="false" />
+            <element signature="e#39726#39727#0" expanded="false" />
+            <element signature="e#39783#39784#0" expanded="false" />
+            <element signature="e#42175#42176#0" expanded="false" />
+            <element signature="e#42242#42243#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding>
+            <element signature="e#1934#1935#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/me/shaftesbury/PitchClassInternal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="103" column="0" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/me/shaftesbury/MajorScale.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/me/shaftesbury/music/test/MajorScaleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/me/shaftesbury/SMPCFunctions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/javatuples/javatuples/1.2/javatuples-1.2-sources.jar!/org/javatuples/Tuple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="208" column="0" selection-start-line="208" selection-start-column="0" selection-end-line="208" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/javatuples/javatuples/1.2/javatuples-1.2-sources.jar!/org/javatuples/Pair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="190" column="0" selection-start-line="190" selection-start-column="0" selection-end-line="190" selection-end-column="0" />
+          <folding>
+            <element signature="e#1472#1473#0" expanded="false" />
+            <element signature="e#1523#1524#0" expanded="false" />
+            <element signature="e#5030#5031#0" expanded="false" />
+            <element signature="e#5062#5063#0" expanded="false" />
+            <element signature="e#5123#5124#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="194" column="102" selection-start-line="194" selection-start-column="102" selection-end-line="194" selection-end-column="102" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/me/shaftesbury/music/test/PitchClassTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/me/shaftesbury/music/test/MinorScaleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/me/shaftesbury/MusicGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="32" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <marker date="1459180573707" expanded="false" signature="1019:1025" placeholder="&lt;~&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/me/shaftesbury/music/test/MusicGeneratorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/me/shaftesbury/PitchClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2536#2734#0" expanded="true" />
+            <element signature="e#2733#2734#0" expanded="true" />
+            <element signature="e#3034#3232#0" expanded="true" />
+            <element signature="e#3231#3232#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/me/shaftesbury/CircularArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
-          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        <state relative-caret-position="17">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/me/shaftesbury/music/test/CircularArrayListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="15" column="92" selection-start-line="15" selection-start-column="92" selection-end-line="15" selection-end-column="92" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <marker date="1459365906035" expanded="false" signature="804:813" placeholder="&lt;~&gt;" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/me/shaftesbury/music/test/NoteTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
-          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+        <state relative-caret-position="300">
+          <caret line="131" column="37" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/18.0/guava-18.0.jar!/com/google/common/collect/Iterables.class">
+    <entry file="file://$PROJECT_DIR$/src/main/me/shaftesbury/Generators.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="5956" max-vertical-offset="6885">
-          <caret line="454" column="34" selection-start-line="454" selection-start-column="34" selection-end-line="454" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/18.0/guava-18.0.jar!/com/google/common/collect/Iterators.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="9016" max-vertical-offset="10625">
-          <caret line="638" column="42" selection-start-line="638" selection-start-column="42" selection-end-line="638" selection-end-column="42" />
+        <state relative-caret-position="287">
+          <caret line="54" column="15" selection-start-line="54" selection-start-column="15" selection-end-line="54" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/me/shaftesbury/Note.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1667" max-vertical-offset="2346">
-          <caret line="129" column="36" selection-start-line="129" selection-start-column="36" selection-end-line="129" selection-end-column="36" />
+        <state relative-caret-position="231">
+          <caret line="124" column="26" selection-start-line="124" selection-start-column="23" selection-end-line="124" selection-end-column="35" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1384#1385#0" expanded="false" />
-            <element signature="e#1473#1474#0" expanded="false" />
-            <element signature="e#1934#1935#0" expanded="false" />
-            <element signature="e#1994#1995#0" expanded="false" />
+            <element signature="e#1618#1817#0" expanded="true" />
+            <element signature="e#1816#1817#0" expanded="true" />
+            <element signature="e#2549#2565#0" expanded="true" />
+            <element signature="e#2645#2661#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/me/shaftesbury/Functional-Utils-Java/1.17/Functional-Utils-Java-1.17-sources.jar!/me/shaftesbury/utils/functional/Functional.java">
+    <entry file="file://$PROJECT_DIR$/src/main/me/shaftesbury/EqualTemperedScale.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="8540" max-vertical-offset="55148">
-          <caret line="624" column="50" selection-start-line="624" selection-start-column="50" selection-end-line="624" selection-end-column="50" />
+        <state relative-caret-position="180">
+          <caret line="67" column="70" selection-start-line="67" selection-start-column="70" selection-end-line="67" selection-end-column="70" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#665#666#0" expanded="false" />
-            <element signature="e#710#711#0" expanded="false" />
-            <element signature="e#2435#2436#0" expanded="false" />
-            <element signature="e#2507#2508#0" expanded="false" />
-            <element signature="e#2688#2689#0" expanded="false" />
-            <element signature="e#2738#2739#0" expanded="false" />
-            <element signature="e#7676#7677#0" expanded="false" />
-            <element signature="e#7739#7740#0" expanded="false" />
-            <element signature="e#11978#11979#0" expanded="false" />
-            <element signature="e#12045#12046#0" expanded="false" />
-            <element signature="e#14262#14263#0" expanded="false" />
-            <element signature="e#14325#14326#0" expanded="false" />
-            <element signature="e#15023#15024#0" expanded="false" />
-            <element signature="e#15060#15061#0" expanded="false" />
-            <element signature="e#16006#16007#0" expanded="false" />
-            <element signature="e#16064#16065#0" expanded="false" />
-            <element signature="e#17602#17603#0" expanded="false" />
-            <element signature="e#17642#17643#0" expanded="false" />
-            <element signature="e#17998#17999#0" expanded="false" />
-            <element signature="e#18039#18040#0" expanded="false" />
-            <element signature="e#18381#18382#0" expanded="false" />
-            <element signature="e#18422#18423#0" expanded="false" />
-            <element signature="e#18752#18753#0" expanded="false" />
-            <element signature="e#18808#18809#0" expanded="false" />
-            <element signature="e#19113#19114#0" expanded="false" />
-            <element signature="e#19153#19154#0" expanded="false" />
-            <element signature="e#19631#19632#0" expanded="false" />
-            <element signature="e#19691#19692#0" expanded="false" />
-            <element signature="e#20198#20199#0" expanded="false" />
-            <element signature="e#20259#20260#0" expanded="false" />
-            <element signature="e#20741#20742#0" expanded="false" />
-            <element signature="e#20801#20802#0" expanded="false" />
-            <element signature="e#21302#21303#0" expanded="false" />
-            <element signature="e#21363#21364#0" expanded="false" />
-            <element signature="e#24670#24671#0" expanded="false" />
-            <element signature="e#24732#24733#0" expanded="false" />
-            <element signature="e#27058#27059#0" expanded="false" />
-            <element signature="e#27121#27122#0" expanded="false" />
-            <element signature="e#33206#33207#0" expanded="false" />
-            <element signature="e#33271#33272#0" expanded="false" />
-            <element signature="e#34773#34774#0" expanded="false" />
-            <element signature="e#34838#34839#0" expanded="false" />
-            <element signature="e#36737#36738#0" expanded="false" />
-            <element signature="e#36802#36803#0" expanded="false" />
-            <element signature="e#40057#40058#0" expanded="false" />
-            <element signature="e#40125#40126#0" expanded="false" />
-            <element signature="e#42377#42378#0" expanded="false" />
-            <element signature="e#42443#42444#0" expanded="false" />
-            <element signature="e#44113#44114#0" expanded="false" />
-            <element signature="e#44191#44192#0" expanded="false" />
-            <element signature="e#54558#54559#0" expanded="false" />
-            <element signature="e#54627#54628#0" expanded="false" />
-            <element signature="e#56404#56405#0" expanded="false" />
-            <element signature="e#56481#56482#0" expanded="false" />
-            <element signature="e#58589#58590#0" expanded="false" />
-            <element signature="e#58659#58660#0" expanded="false" />
-            <element signature="e#60736#60737#0" expanded="false" />
-            <element signature="e#60813#60814#0" expanded="false" />
-            <element signature="e#61382#61383#0" expanded="false" />
-            <element signature="e#61429#61430#0" expanded="false" />
-            <element signature="e#62051#62052#0" expanded="false" />
-            <element signature="e#62144#62145#0" expanded="false" />
-            <element signature="e#71921#71922#0" expanded="false" />
-            <element signature="e#71987#71988#0" expanded="false" />
-            <element signature="e#73899#73900#0" expanded="false" />
-            <element signature="e#73954#73955#0" expanded="false" />
-            <element signature="e#74939#74940#0" expanded="false" />
-            <element signature="e#75024#75025#0" expanded="false" />
-            <element signature="e#75093#75094#0" expanded="false" />
-            <element signature="e#75182#75183#0" expanded="false" />
-            <element signature="e#78702#78703#0" expanded="false" />
-            <element signature="e#78777#78778#0" expanded="false" />
-            <element signature="e#81388#81389#0" expanded="false" />
-            <element signature="e#81452#81453#0" expanded="false" />
-            <element signature="e#84649#84650#0" expanded="false" />
-            <element signature="e#84728#84729#0" expanded="false" />
-            <element signature="e#84811#84812#0" expanded="false" />
-            <element signature="e#84897#84898#0" expanded="false" />
-            <element signature="e#86432#86433#0" expanded="false" />
-            <element signature="e#86507#86508#0" expanded="false" />
-            <element signature="e#88081#88082#0" expanded="false" />
-            <element signature="e#88160#88161#0" expanded="false" />
-            <element signature="e#88243#88244#0" expanded="false" />
-            <element signature="e#88339#88340#0" expanded="false" />
-            <element signature="e#89892#89893#0" expanded="false" />
-            <element signature="e#89968#89969#0" expanded="false" />
-            <element signature="e#91306#91307#0" expanded="false" />
-            <element signature="e#91399#91400#0" expanded="false" />
-            <element signature="e#91476#91477#0" expanded="false" />
-            <element signature="e#91578#91579#0" expanded="false" />
-            <element signature="e#95755#95756#0" expanded="false" />
-            <element signature="e#95832#95833#0" expanded="false" />
-            <element signature="e#100100#100101#0" expanded="false" />
-            <element signature="e#100178#100179#0" expanded="false" />
-            <element signature="e#101895#101896#0" expanded="false" />
-            <element signature="e#101975#101976#0" expanded="false" />
-            <element signature="e#104074#104075#0" expanded="false" />
-            <element signature="e#104141#104142#0" expanded="false" />
-            <element signature="e#104218#104219#0" expanded="false" />
-            <element signature="e#104301#104302#0" expanded="false" />
-            <element signature="e#106383#106384#0" expanded="false" />
-            <element signature="e#106485#106486#0" expanded="false" />
-            <element signature="e#108347#108348#0" expanded="false" />
-            <element signature="e#108425#108426#0" expanded="false" />
-            <element signature="e#111844#111845#0" expanded="false" />
-            <element signature="e#111926#111927#0" expanded="false" />
-            <element signature="e#116520#116521#0" expanded="false" />
-            <element signature="e#116609#116610#0" expanded="false" />
-            <element signature="e#117968#117969#0" expanded="false" />
-            <element signature="e#118084#118085#0" expanded="false" />
-            <element signature="e#119565#119566#0" expanded="false" />
-            <element signature="e#119647#119648#0" expanded="false" />
-            <element signature="e#124647#124648#0" expanded="false" />
-            <element signature="e#124736#124737#0" expanded="false" />
-            <element signature="e#125671#125672#0" expanded="false" />
-            <element signature="e#125755#125756#0" expanded="false" />
-            <element signature="e#127244#127245#0" expanded="false" />
-            <element signature="e#127335#127336#0" expanded="false" />
-            <element signature="e#130831#130832#0" expanded="false" />
-            <element signature="e#130903#130904#0" expanded="false" />
-            <element signature="e#131402#131403#0" expanded="false" />
-            <element signature="e#131483#131484#0" expanded="false" />
-            <element signature="e#134246#134247#0" expanded="false" />
-            <element signature="e#134345#134346#0" expanded="false" />
-            <element signature="e#135131#135132#0" expanded="false" />
-            <element signature="e#135204#135205#0" expanded="false" />
-            <element signature="e#137885#137886#0" expanded="false" />
-            <element signature="e#138000#138001#0" expanded="false" />
-            <element signature="e#138845#138846#0" expanded="false" />
-            <element signature="e#138923#138924#0" expanded="false" />
-            <element signature="e#140148#140149#0" expanded="false" />
-            <element signature="e#140229#140230#0" expanded="false" />
-            <element signature="e#175822#175823#0" expanded="false" />
-            <element signature="e#175892#175893#0" expanded="false" />
-            <element signature="e#176452#176453#0" expanded="false" />
-            <element signature="e#176507#176508#0" expanded="false" />
-            <element signature="e#176966#176967#0" expanded="false" />
-            <element signature="e#177021#177022#0" expanded="false" />
+            <element signature="e#2385#2580#0" expanded="true" />
+            <element signature="e#2579#2580#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/me/shaftesbury/Chord.java">
+    <entry file="file://$PROJECT_DIR$/src/test/me/shaftesbury/music/test/GeneratorsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="1224">
-          <caret line="74" column="37" selection-start-line="74" selection-start-column="37" selection-end-line="74" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1034#1035#0" expanded="false" />
-            <element signature="e#1064#1065#0" expanded="false" />
-            <element signature="e#1349#1350#0" expanded="false" />
-            <element signature="e#1397#1398#0" expanded="false" />
-            <element signature="e#1923#1924#0" expanded="false" />
-            <element signature="e#1963#1964#0" expanded="false" />
-            <element signature="e#2220#2221#0" expanded="false" />
-            <element signature="e#2261#2262#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/me/shaftesbury/Chords.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1876" max-vertical-offset="2278">
-          <caret line="173" column="29" selection-start-line="173" selection-start-column="29" selection-end-line="173" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/me/shaftesbury/Calculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="4149" max-vertical-offset="4743">
-          <caret line="273" column="0" selection-start-line="273" selection-start-column="0" selection-end-line="273" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1641#1672#0" expanded="true" />
-            <element signature="e#2137#2427#0" expanded="true" />
-            <element signature="e#2426#2427#0" expanded="true" />
-            <element signature="e#9444#9466#0" expanded="true" />
-            <element signature="e#10406#10428#0" expanded="true" />
-            <element signature="e#11368#11390#0" expanded="true" />
-            <element signature="e#12328#12350#0" expanded="true" />
-            <element signature="e#13289#13311#0" expanded="true" />
-            <element signature="e#14242#14264#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/me/shaftesbury/Instruments.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
-          <caret line="15" column="124" selection-start-line="15" selection-start-column="124" selection-end-line="15" selection-end-column="124" />
+        <state relative-caret-position="283">
+          <caret line="59" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/me/shaftesbury/Instrument.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
-          <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#540#541#0" expanded="true" />
-            <element signature="e#599#600#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_51/src.zip!/java/lang/Math.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33278418" vertical-offset="869" max-vertical-offset="24293">
-          <caret line="86" column="19" selection-start-line="86" selection-start-column="19" selection-end-line="86" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/me/shaftesbury/SMPCFunctions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28451177" vertical-offset="953" max-vertical-offset="3349">
-          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>

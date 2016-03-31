@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: me.shaftesbury:Functional-Utils-Java:test-jar:tests:1.17">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/me/shaftesbury/Functional-Utils-Java/1.17/Functional-Utils-Java-1.17-tests.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/me/shaftesbury/Functional-Utils-Java/1.17/Functional-Utils-Java-1.17-test-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/me/shaftesbury/Functional-Utils-Java/1.17/Functional-Utils-Java-1.17-test-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

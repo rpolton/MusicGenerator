@@ -2,9 +2,9 @@ package me.shaftesbury;
 
 import java.util.Arrays;
 
-public class HungarianMinorScale extends Scale
+public class HungarianMinorScale extends EqualTemperedScale
 {
-    public static Scale create(final Note rootNote) { return new HungarianMinorScale(rootNote); }
+    public static EqualTemperedScale create(final Note rootNote) { return new HungarianMinorScale(rootNote); }
 
     public HungarianMinorScale(final Note rootNote)
     {

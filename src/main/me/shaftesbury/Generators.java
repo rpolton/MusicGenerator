@@ -43,16 +43,16 @@ public class Generators
 //        return third;
 //    }
 
-    public static Note nextNoteUpInKey(final Scale scale, final List<Note> previousNotes)
+    public static Note nextNoteUpInKey(final EqualTemperedScale scale, final List<Note> previousNotes)
     {
         final Note prev = previousNotes.get(0);
-        return prev;//scale.getFollowingNote(prev);
+        return scale.getFollowingNote(prev);
     }
 
-    public static Note nextNoteDownInKey(final Scale scale, final List<Note> previousNotes)
+    public static Note nextNoteDownInKey(final EqualTemperedScale scale, final List<Note> previousNotes)
     {
         final Note prev = previousNotes.get(0);
-        return prev;//scale.getPrecedingNote(prev);
+        return scale.getPrecedingNote(prev);
     }
 
     public static Note nextNoteChromaticUp(final List<Note> previousNotes)

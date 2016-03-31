@@ -1,0 +1,563 @@
+Freqs: [659.2551138; 440.0]
+Goal: {average = 2.5;
+ dev = 2.5;} 0.034447 [fifth]
+true
+Freqs: [783.990872; 659.2551138; 440.0]
+Goal: {average = 2.5;
+ dev = 2.5;} 0.640730 [minorThird; fifth]
+true
+Freqs: [783.990872; 783.990872; 659.2551138; 440.0]
+Goal: {average = 2.5;
+ dev = 2.5;} 0.235712 [unison; minorThird; fifth]
+true
+Freqs: [698.4564629; 783.990872; 783.990872; 659.2551138; 440.0]
+Goal: {average = 2.5;
+ dev = 2.5;} 2.045900 [minorSeventh; unison; minorThird; fifth]
+true
+Freqs: [493.8833013; 698.4564629; 783.990872; 783.990872; 659.2551138; 440.0]
+Goal: {average = 2.5;
+ dev = 2.5;} 0.768169 [augmentedFourth; minorSeventh; unison; minorThird; fifth]
+true
+Freqs: [493.8833013; 493.8833013; 698.4564629; 783.990872; 783.990872; 659.2551138;
+ 440.0]
+Goal: {average = 2.5;
+ dev = 2.5;} 0.282595 [octave; augmentedFourth; minorSeventh; unison; minorThird; fifth]
+true
+Freqs: [830.6093952; 493.8833013; 493.8833013; 698.4564629; 783.990872; 783.990872;
+ 659.2551138; 440.0]
+Goal: {average = 2.5;
+ dev = 2.5;} 0.632751 [sixth; octave; augmentedFourth; minorSeventh; unison; minorThird; fifth]
+true
+Freqs: [554.365262; 830.6093952; 493.8833013; 493.8833013; 698.4564629; 783.990872;
+ 783.990872; 659.2551138; 440.0]
+Goal: {average = 2.5;
+ dev = 2.5;} 0.267223 [fourth; sixth; octave; augmentedFourth; minorSeventh; unison; minorThird; fifth]
+true
+Freqs: [587.3295358; 554.365262; 830.6093952; 493.8833013; 493.8833013; 698.4564629;
+ 783.990872; 783.990872; 659.2551138; 440.0]
+Goal: {average = 2.5;
+ dev = 2.5;} 3.917994 [minorSecond; fourth; sixth; octave; augmentedFourth; minorSeventh; unison;
+ minorThird; fifth]
+true
+Freqs: [440.0; 587.3295358; 554.365262; 830.6093952; 493.8833013; 493.8833013;
+ 698.4564629; 783.990872; 783.990872; 659.2551138; 440.0]
+Goal: {average = 2.5;
+ dev = 2.5;} 1.481674 [fifth; minorSecond; fourth; sixth; octave; augmentedFourth; minorSeventh;
+ unison; minorThird; fifth]
+true
+Freqs: [554.365262; 440.0; 587.3295358; 554.365262; 830.6093952; 493.8833013;
+ 493.8833013; 698.4564629; 783.990872; 783.990872; 659.2551138; 440.0]
+Goal: {average = 2.5;
+ dev = 2.5;} 0.710721 [third; fifth; minorSecond; fourth; sixth; octave; augmentedFourth; minorSeventh;
+ unison; minorThird; fifth]
+true
+Freqs: [587.3295358; 554.365262; 440.0; 587.3295358; 554.365262; 830.6093952;
+ 493.8833013; 493.8833013; 698.4564629; 783.990872; 783.990872; 659.2551138;
+ 440.0]
+Goal: {average = 2.5;
+ dev = 2.5;} 4.081148 [minorSecond; third; fifth; minorSecond; fourth; sixth; octave; augmentedFourth;
+ minorSeventh; unison; minorThird; fifth]
+true
+Freqs: [523.2511306; 587.3295358; 554.365262; 440.0; 587.3295358; 554.365262;
+ 830.6093952; 493.8833013; 493.8833013; 698.4564629; 783.990872; 783.990872;
+ 659.2551138; 440.0]
+Goal: {average = 2.5;
+ dev = 2.5;} 3.460556 [minorSeventh; minorSecond; third; fifth; minorSecond; fourth; sixth; octave;
+ augmentedFourth; minorSeventh; unison; minorThird; fifth]
+true
+Freqs: [783.990872; 523.2511306; 587.3295358; 554.365262; 440.0; 587.3295358;
+ 554.365262; 830.6093952; 493.8833013; 493.8833013; 698.4564629; 783.990872;
+ 783.990872; 659.2551138; 440.0]
+Goal: {average = 2.5;
+ dev = 2.5;} 1.307515 [fifth; minorSeventh; minorSecond; third; fifth; minorSecond; fourth; sixth;
+ octave; augmentedFourth; minorSeventh; unison; minorThird; fifth]
+true
+Freqs: [466.1637615; 783.990872; 523.2511306; 587.3295358; 554.365262; 440.0;
+ 587.3295358; 554.365262; 830.6093952; 493.8833013; 493.8833013; 698.4564629;
+ 783.990872; 783.990872; 659.2551138; 440.0]
+Goal: {average = 2.5;
+ dev = 2.5;} 1.009798 [minorThird; fifth; minorSeventh; minorSecond; third; fifth; minorSecond; fourth;
+ sixth; octave; augmentedFourth; minorSeventh; unison; minorThird; fifth]
+true
+Freqs: [523.2511306; 466.1637615; 783.990872; 523.2511306; 587.3295358; 554.365262;
+ 440.0; 587.3295358; 554.365262; 830.6093952; 493.8833013; 493.8833013;
+ 698.4564629; 783.990872; 783.990872; 659.2551138; 440.0]
+Goal: {average = 2.5;
+ dev = 2.5;} 2.330670 [second; minorThird; fifth; minorSeventh; minorSecond; third; fifth; minorSecond;
+ fourth; sixth; octave; augmentedFourth; minorSeventh; unison; minorThird; fifth]
+true
+Freqs: [622.2539674; 523.2511306; 466.1637615; 783.990872; 523.2511306; 587.3295358;
+ 554.365262; 440.0; 587.3295358; 554.365262; 830.6093952; 493.8833013;
+ 493.8833013; 698.4564629; 783.990872; 783.990872; 659.2551138; 440.0]
+Goal: {average = 2.5;
+ dev = 2.5;} 1.485463 [minorThird; second; minorThird; fifth; minorSeventh; minorSecond; third; fifth;
+ minorSecond; fourth; sixth; octave; augmentedFourth; minorSeventh; unison;
+ minorThird; fifth]
+true
+Freqs: [783.990872; 622.2539674; 523.2511306; 466.1637615; 783.990872; 523.2511306;
+ 587.3295358; 554.365262; 440.0; 587.3295358; 554.365262; 830.6093952;
+ 493.8833013; 493.8833013; 698.4564629; 783.990872; 783.990872; 659.2551138;
+ 440.0]
+Goal: {average = 2.5;
+ dev = 2.5;} 0.712115 [third; minorThird; second; minorThird; fifth; minorSeventh; minorSecond; third;
+ fifth; minorSecond; fourth; sixth; octave; augmentedFourth; minorSeventh;
+ unison; minorThird; fifth]
+true
+Freqs: [622.2539674; 783.990872; 622.2539674; 523.2511306; 466.1637615; 783.990872;
+ 523.2511306; 587.3295358; 554.365262; 440.0; 587.3295358; 554.365262;
+ 830.6093952; 493.8833013; 493.8833013; 698.4564629; 783.990872; 783.990872;
+ 659.2551138; 440.0]
+Goal: {average = 2.5;
+ dev = 2.5;} 0.427616 [minorSixth; third; minorThird; second; minorThird; fifth; minorSeventh;
+ minorSecond; third; fifth; minorSecond; fourth; sixth; octave; augmentedFourth;
+ minorSeventh; unison; minorThird; fifth]
+true
+Freqs: [466.1637615; 622.2539674; 783.990872; 622.2539674; 523.2511306; 466.1637615;
+ 783.990872; 523.2511306; 587.3295358; 554.365262; 440.0; 587.3295358;
+ 554.365262; 830.6093952; 493.8833013; 493.8833013; 698.4564629; 783.990872;
+ 783.990872; 659.2551138; 440.0]
+Goal: {average = 2.5;
+ dev = 2.5;} 0.197636 [fifth; minorSixth; third; minorThird; second; minorThird; fifth; minorSeventh;
+ minorSecond; third; fifth; minorSecond; fourth; sixth; octave; augmentedFourth;
+ minorSeventh; unison; minorThird; fifth]
+true
+Freqs: [622.2539674; 466.1637615; 622.2539674; 783.990872; 622.2539674; 523.2511306;
+ 466.1637615; 783.990872; 523.2511306; 587.3295358; 554.365262; 440.0;
+ 587.3295358; 554.365262; 830.6093952; 493.8833013; 493.8833013; 698.4564629;
+ 783.990872; 783.990872; 659.2551138; 440.0]
+Goal: {average = 2.5;
+ dev = 2.5;} 0.113031 [fourth; fifth; minorSixth; third; minorThird; second; minorThird; fifth;
+ minorSeventh; minorSecond; third; fifth; minorSecond; fourth; sixth; octave;
+ augmentedFourth; minorSeventh; unison; minorThird; fifth]
+true
+Freqs: [466.1637615; 622.2539674; 466.1637615; 622.2539674; 783.990872; 622.2539674;
+ 523.2511306; 466.1637615; 783.990872; 523.2511306; 587.3295358; 554.365262;
+ 440.0; 587.3295358; 554.365262; 830.6093952; 493.8833013; 493.8833013;
+ 698.4564629; 783.990872; 783.990872; 659.2551138; 440.0]
+Goal: {average = 2.5;
+ dev = 2.5;} 0.081906 [fifth; fourth; fifth; minorSixth; third; minorThird; second; minorThird; fifth;
+ minorSeventh; minorSecond; third; fifth; minorSecond; fourth; sixth; octave;
+ augmentedFourth; minorSeventh; unison; minorThird; fifth]
+true
+Freqs: [783.990872; 466.1637615; 622.2539674; 466.1637615; 622.2539674; 783.990872;
+ 622.2539674; 523.2511306; 466.1637615; 783.990872; 523.2511306; 587.3295358;
+ 554.365262; 440.0; 587.3295358; 554.365262; 830.6093952; 493.8833013;
+ 493.8833013; 698.4564629; 783.990872; 783.990872; 659.2551138; 440.0]
+Goal: {average = 2.5;
+ dev = 2.5;} 0.558921 [sixth; fifth; fourth; fifth; minorSixth; third; minorThird; second; minorThird;
+ fifth; minorSeventh; minorSecond; third; fifth; minorSecond; fourth; sixth;
+ octave; augmentedFourth; minorSeventh; unison; minorThird; fifth]
+true
+Freqs: [587.3295358; 783.990872; 466.1637615; 622.2539674; 466.1637615; 622.2539674;
+ 783.990872; 622.2539674; 523.2511306; 466.1637615; 783.990872; 523.2511306;
+ 587.3295358; 554.365262; 440.0; 587.3295358; 554.365262; 830.6093952;
+ 493.8833013; 493.8833013; 698.4564629; 783.990872; 783.990872; 659.2551138;
+ 440.0]
+Goal: {average = 2.5;
+ dev = 2.5;} 0.245940 [fifth; sixth; fifth; fourth; fifth; minorSixth; third; minorThird; second;
+ minorThird; fifth; minorSeventh; minorSecond; third; fifth; minorSecond; fourth;
+ sixth; octave; augmentedFourth; minorSeventh; unison; minorThird; fifth]
+true
+Freqs: [622.2539674; 587.3295358; 783.990872; 466.1637615; 622.2539674; 466.1637615;
+ 622.2539674; 783.990872; 622.2539674; 523.2511306; 466.1637615; 783.990872;
+ 523.2511306; 587.3295358; 554.365262; 440.0; 587.3295358; 554.365262;
+ 830.6093952; 493.8833013; 493.8833013; 698.4564629; 783.990872; 783.990872;
+ 659.2551138; 440.0]
+Goal: {average = 2.5;
+ dev = 2.5;} 3.910165 [minorSecond; fifth; sixth; fifth; fourth; fifth; minorSixth; third; minorThird;
+ second; minorThird; fifth; minorSeventh; minorSecond; third; fifth; minorSecond;
+ fourth; sixth; octave; augmentedFourth; minorSeventh; unison; minorThird; fifth]
+true
+Freqs: [493.8833013; 622.2539674; 587.3295358; 783.990872; 466.1637615; 622.2539674;
+ 466.1637615; 622.2539674; 783.990872; 622.2539674; 523.2511306; 466.1637615;
+ 783.990872; 523.2511306; 587.3295358; 554.365262; 440.0; 587.3295358;
+ 554.365262; 830.6093952; 493.8833013; 493.8833013; 698.4564629; 783.990872;
+ 783.990872; 659.2551138; 440.0]
+Goal: {average = 2.5;
+ dev = 2.5;} 1.604113 [minorSixth; minorSecond; fifth; sixth; fifth; fourth; fifth; minorSixth; third;
+ minorThird; second; minorThird; fifth; minorSeventh; minorSecond; third; fifth;
+ minorSecond; fourth; sixth; octave; augmentedFourth; minorSeventh; unison;
+ minorThird; fifth]
+true
+Freqs: [830.6093952; 493.8833013; 622.2539674; 587.3295358; 783.990872; 466.1637615;
+ 622.2539674; 466.1637615; 622.2539674; 783.990872; 622.2539674; 523.2511306;
+ 466.1637615; 783.990872; 523.2511306; 587.3295358; 554.365262; 440.0;
+ 587.3295358; 554.365262; 830.6093952; 493.8833013; 493.8833013; 698.4564629;
+ 783.990872; 783.990872; 659.2551138; 440.0]
+Goal: {average = 2.5;
+ dev = 2.5;} 1.118910 [sixth; minorSixth; minorSecond; fifth; sixth; fifth; fourth; fifth; minorSixth;
+ third; minorThird; second; minorThird; fifth; minorSeventh; minorSecond; third;
+ fifth; minorSecond; fourth; sixth; octave; augmentedFourth; minorSeventh;
+ unison; minorThird; fifth]
+true
+Freqs: [587.3295358; 830.6093952; 493.8833013; 622.2539674; 587.3295358; 783.990872;
+ 466.1637615; 622.2539674; 466.1637615; 622.2539674; 783.990872; 622.2539674;
+ 523.2511306; 466.1637615; 783.990872; 523.2511306; 587.3295358; 554.365262;
+ 440.0; 587.3295358; 554.365262; 830.6093952; 493.8833013; 493.8833013;
+ 698.4564629; 783.990872; 783.990872; 659.2551138; 440.0]
+Goal: {average = 2.5;
+ dev = 2.5;} 0.427149 [augmentedFourth; sixth; minorSixth; minorSecond; fifth; sixth; fifth; fourth;
+ fifth; minorSixth; third; minorThird; second; minorThird; fifth; minorSeventh;
+ minorSecond; third; fifth; minorSecond; fourth; sixth; octave; augmentedFourth;
+ minorSeventh; unison; minorThird; fifth]
+true
+Freqs: [698.4564629; 587.3295358; 830.6093952; 493.8833013; 622.2539674; 587.3295358;
+ 783.990872; 466.1637615; 622.2539674; 466.1637615; 622.2539674; 783.990872;
+ 622.2539674; 523.2511306; 466.1637615; 783.990872; 523.2511306; 587.3295358;
+ 554.365262; 440.0; 587.3295358; 554.365262; 830.6093952; 493.8833013;
+ 493.8833013; 698.4564629; 783.990872; 783.990872; 659.2551138; 440.0]
+Goal: {average = 2.5;
+ dev = 2.5;} 0.785197 [minorThird; augmentedFourth; sixth; minorSixth; minorSecond; fifth; sixth;
+ fifth; fourth; fifth; minorSixth; third; minorThird; second; minorThird; fifth;
+ minorSeventh; minorSecond; third; fifth; minorSecond; fourth; sixth; octave;
+ augmentedFourth; minorSeventh; unison; minorThird; fifth]
+true
+Freqs: [440.0; 698.4564629; 587.3295358; 830.6093952; 493.8833013; 622.2539674;
+ 587.3295358; 783.990872; 466.1637615; 622.2539674; 466.1637615; 622.2539674;
+ 783.990872; 622.2539674; 523.2511306; 466.1637615; 783.990872; 523.2511306;
+ 587.3295358; 554.365262; 440.0; 587.3295358; 554.365262; 830.6093952;
+ 493.8833013; 493.8833013; 698.4564629; 783.990872; 783.990872; 659.2551138;
+ 440.0]
+Goal: {average = 2.5;
+ dev = 2.5;} 0.428411 [third; minorThird; augmentedFourth; sixth; minorSixth; minorSecond; fifth;
+ sixth; fifth; fourth; fifth; minorSixth; third; minorThird; second; minorThird;
+ fifth; minorSeventh; minorSecond; third; fifth; minorSecond; fourth; sixth;
+ octave; augmentedFourth; minorSeventh; unison; minorThird; fifth]
+true
+Freqs: [523.2511306; 440.0; 698.4564629; 587.3295358; 830.6093952; 493.8833013;
+ 622.2539674; 587.3295358; 783.990872; 466.1637615; 622.2539674; 466.1637615;
+ 622.2539674; 783.990872; 622.2539674; 523.2511306; 466.1637615; 783.990872;
+ 523.2511306; 587.3295358; 554.365262; 440.0; 587.3295358; 554.365262;
+ 830.6093952; 493.8833013; 493.8833013; 698.4564629; 783.990872; 783.990872;
+ 659.2551138; 440.0]
+Goal: {average = 2.5;
+ dev = 2.5;} 0.785661 [minorThird; third; minorThird; augmentedFourth; sixth; minorSixth; minorSecond;
+ fifth; sixth; fifth; fourth; fifth; minorSixth; third; minorThird; second;
+ minorThird; fifth; minorSeventh; minorSecond; third; fifth; minorSecond; fourth;
+ sixth; octave; augmentedFourth; minorSeventh; unison; minorThird; fifth]
+true
+Freqs: [466.1637615; 523.2511306; 440.0; 698.4564629; 587.3295358; 830.6093952;
+ 493.8833013; 622.2539674; 587.3295358; 783.990872; 466.1637615; 622.2539674;
+ 466.1637615; 622.2539674; 783.990872; 622.2539674; 523.2511306; 466.1637615;
+ 783.990872; 523.2511306; 587.3295358; 554.365262; 440.0; 587.3295358;
+ 554.365262; 830.6093952; 493.8833013; 493.8833013; 698.4564629; 783.990872;
+ 783.990872; 659.2551138; 440.0]
+Goal: {average = 2.5;
+ dev = 2.5;} 2.248214 [minorSeventh; minorThird; third; minorThird; augmentedFourth; sixth; minorSixth;
+ minorSecond; fifth; sixth; fifth; fourth; fifth; minorSixth; third; minorThird;
+ second; minorThird; fifth; minorSeventh; minorSecond; third; fifth; minorSecond;
+ fourth; sixth; octave; augmentedFourth; minorSeventh; unison; minorThird; fifth]
+true
+Freqs: [783.990872; 466.1637615; 523.2511306; 440.0; 698.4564629; 587.3295358;
+ 830.6093952; 493.8833013; 622.2539674; 587.3295358; 783.990872; 466.1637615;
+ 622.2539674; 466.1637615; 622.2539674; 783.990872; 622.2539674; 523.2511306;
+ 466.1637615; 783.990872; 523.2511306; 587.3295358; 554.365262; 440.0;
+ 587.3295358; 554.365262; 830.6093952; 493.8833013; 493.8833013; 698.4564629;
+ 783.990872; 783.990872; 659.2551138; 440.0]
+Goal: {average = 2.5;
+ dev = 2.5;} 1.355862 [sixth; minorSeventh; minorThird; third; minorThird; augmentedFourth; sixth;
+ minorSixth; minorSecond; fifth; sixth; fifth; fourth; fifth; minorSixth; third;
+ minorThird; second; minorThird; fifth; minorSeventh; minorSecond; third; fifth;
+ minorSecond; fourth; sixth; octave; augmentedFourth; minorSeventh; unison;
+ minorThird; fifth]
+true
+Freqs: [554.365262; 783.990872; 466.1637615; 523.2511306; 440.0; 698.4564629;
+ 587.3295358; 830.6093952; 493.8833013; 622.2539674; 587.3295358; 783.990872;
+ 466.1637615; 622.2539674; 466.1637615; 622.2539674; 783.990872; 622.2539674;
+ 523.2511306; 466.1637615; 783.990872; 523.2511306; 587.3295358; 554.365262;
+ 440.0; 587.3295358; 554.365262; 830.6093952; 493.8833013; 493.8833013;
+ 698.4564629; 783.990872; 783.990872; 659.2551138; 440.0]
+Goal: {average = 2.5;
+ dev = 2.5;} 0.514318 [augmentedFourth; sixth; minorSeventh; minorThird; third; minorThird;
+ augmentedFourth; sixth; minorSixth; minorSecond; fifth; sixth; fifth; fourth;
+ fifth; minorSixth; third; minorThird; second; minorThird; fifth; minorSeventh;
+ minorSecond; third; fifth; minorSecond; fourth; sixth; octave; augmentedFourth;
+ minorSeventh; unison; minorThird; fifth]
+true
+Freqs: [554.365262; 554.365262; 783.990872; 466.1637615; 523.2511306; 440.0;
+ 698.4564629; 587.3295358; 830.6093952; 493.8833013; 622.2539674; 587.3295358;
+ 783.990872; 466.1637615; 622.2539674; 466.1637615; 622.2539674; 783.990872;
+ 622.2539674; 523.2511306; 466.1637615; 783.990872; 523.2511306; 587.3295358;
+ 554.365262; 440.0; 587.3295358; 554.365262; 830.6093952; 493.8833013;
+ 493.8833013; 698.4564629; 783.990872; 783.990872; 659.2551138; 440.0]
+Goal: {average = 2.5;
+ dev = 2.5;} 0.189208 [octave; augmentedFourth; sixth; minorSeventh; minorThird; third; minorThird;
+ augmentedFourth; sixth; minorSixth; minorSecond; fifth; sixth; fifth; fourth;
+ fifth; minorSixth; third; minorThird; second; minorThird; fifth; minorSeventh;
+ minorSecond; third; fifth; minorSecond; fourth; sixth; octave; augmentedFourth;
+ minorSeventh; unison; minorThird; fifth]
+true
+Freqs: [440.0; 554.365262; 554.365262; 783.990872; 466.1637615; 523.2511306; 440.0;
+ 698.4564629; 587.3295358; 830.6093952; 493.8833013; 622.2539674; 587.3295358;
+ 783.990872; 466.1637615; 622.2539674; 466.1637615; 622.2539674; 783.990872;
+ 622.2539674; 523.2511306; 466.1637615; 783.990872; 523.2511306; 587.3295358;
+ 554.365262; 440.0; 587.3295358; 554.365262; 830.6093952; 493.8833013;
+ 493.8833013; 698.4564629; 783.990872; 783.990872; 659.2551138; 440.0]
+Goal: {average = 2.5;
+ dev = 2.5;} 0.235249 [minorSixth; octave; augmentedFourth; sixth; minorSeventh; minorThird; third;
+ minorThird; augmentedFourth; sixth; minorSixth; minorSecond; fifth; sixth;
+ fifth; fourth; fifth; minorSixth; third; minorThird; second; minorThird; fifth;
+ minorSeventh; minorSecond; third; fifth; minorSecond; fourth; sixth; octave;
+ augmentedFourth; minorSeventh; unison; minorThird; fifth]
+true
+Freqs: [587.3295358; 440.0; 554.365262; 554.365262; 783.990872; 466.1637615;
+ 523.2511306; 440.0; 698.4564629; 587.3295358; 830.6093952; 493.8833013;
+ 622.2539674; 587.3295358; 783.990872; 466.1637615; 622.2539674; 466.1637615;
+ 622.2539674; 783.990872; 622.2539674; 523.2511306; 466.1637615; 783.990872;
+ 523.2511306; 587.3295358; 554.365262; 440.0; 587.3295358; 554.365262;
+ 830.6093952; 493.8833013; 493.8833013; 698.4564629; 783.990872; 783.990872;
+ 659.2551138; 440.0]
+Goal: {average = 2.5;
+ dev = 2.5;} 0.126868 [fourth; minorSixth; octave; augmentedFourth; sixth; minorSeventh; minorThird;
+ third; minorThird; augmentedFourth; sixth; minorSixth; minorSecond; fifth;
+ sixth; fifth; fourth; fifth; minorSixth; third; minorThird; second; minorThird;
+ fifth; minorSeventh; minorSecond; third; fifth; minorSecond; fourth; sixth;
+ octave; augmentedFourth; minorSeventh; unison; minorThird; fifth]
+true
+Freqs: [622.2539674; 587.3295358; 440.0; 554.365262; 554.365262; 783.990872;
+ 466.1637615; 523.2511306; 440.0; 698.4564629; 587.3295358; 830.6093952;
+ 493.8833013; 622.2539674; 587.3295358; 783.990872; 466.1637615; 622.2539674;
+ 466.1637615; 622.2539674; 783.990872; 622.2539674; 523.2511306; 466.1637615;
+ 783.990872; 523.2511306; 587.3295358; 554.365262; 440.0; 587.3295358;
+ 554.365262; 830.6093952; 493.8833013; 493.8833013; 698.4564629; 783.990872;
+ 783.990872; 659.2551138; 440.0]
+Goal: {average = 2.5;
+ dev = 2.5;} 3.866360 [minorSecond; fourth; minorSixth; octave; augmentedFourth; sixth; minorSeventh;
+ minorThird; third; minorThird; augmentedFourth; sixth; minorSixth; minorSecond;
+ fifth; sixth; fifth; fourth; fifth; minorSixth; third; minorThird; second;
+ minorThird; fifth; minorSeventh; minorSecond; third; fifth; minorSecond; fourth;
+ sixth; octave; augmentedFourth; minorSeventh; unison; minorThird; fifth]
+true
+Freqs: [587.3295358; 622.2539674; 587.3295358; 440.0; 554.365262; 554.365262;
+ 783.990872; 466.1637615; 523.2511306; 440.0; 698.4564629; 587.3295358;
+ 830.6093952; 493.8833013; 622.2539674; 587.3295358; 783.990872; 466.1637615;
+ 622.2539674; 466.1637615; 622.2539674; 783.990872; 622.2539674; 523.2511306;
+ 466.1637615; 783.990872; 523.2511306; 587.3295358; 554.365262; 440.0;
+ 587.3295358; 554.365262; 830.6093952; 493.8833013; 493.8833013; 698.4564629;
+ 783.990872; 783.990872; 659.2551138; 440.0]
+Goal: {average = 2.5;
+ dev = 2.5;} 5.242043 [seventh; minorSecond; fourth; minorSixth; octave; augmentedFourth; sixth;
+ minorSeventh; minorThird; third; minorThird; augmentedFourth; sixth; minorSixth;
+ minorSecond; fifth; sixth; fifth; fourth; fifth; minorSixth; third; minorThird;
+ second; minorThird; fifth; minorSeventh; minorSecond; third; fifth; minorSecond;
+ fourth; sixth; octave; augmentedFourth; minorSeventh; unison; minorThird; fifth]
+false
+Freqs: [622.2539674; 622.2539674; 587.3295358; 440.0; 554.365262; 554.365262;
+ 783.990872; 466.1637615; 523.2511306; 440.0; 698.4564629; 587.3295358;
+ 830.6093952; 493.8833013; 622.2539674; 587.3295358; 783.990872; 466.1637615;
+ 622.2539674; 466.1637615; 622.2539674; 783.990872; 622.2539674; 523.2511306;
+ 466.1637615; 783.990872; 523.2511306; 587.3295358; 554.365262; 440.0;
+ 587.3295358; 554.365262; 830.6093952; 493.8833013; 493.8833013; 698.4564629;
+ 783.990872; 783.990872; 659.2551138; 440.0]
+Goal: {average = 2.5;
+ dev = 2.5;} 1.422355 [octave; minorSecond; fourth; minorSixth; octave; augmentedFourth; sixth;
+ minorSeventh; minorThird; third; minorThird; augmentedFourth; sixth; minorSixth;
+ minorSecond; fifth; sixth; fifth; fourth; fifth; minorSixth; third; minorThird;
+ second; minorThird; fifth; minorSeventh; minorSecond; third; fifth; minorSecond;
+ fourth; sixth; octave; augmentedFourth; minorSeventh; unison; minorThird; fifth]
+true
+Freqs: [493.8833013; 622.2539674; 622.2539674; 587.3295358; 440.0; 554.365262;
+ 554.365262; 783.990872; 466.1637615; 523.2511306; 440.0; 698.4564629;
+ 587.3295358; 830.6093952; 493.8833013; 622.2539674; 587.3295358; 783.990872;
+ 466.1637615; 622.2539674; 466.1637615; 622.2539674; 783.990872; 622.2539674;
+ 523.2511306; 466.1637615; 783.990872; 523.2511306; 587.3295358; 554.365262;
+ 440.0; 587.3295358; 554.365262; 830.6093952; 493.8833013; 493.8833013;
+ 698.4564629; 783.990872; 783.990872; 659.2551138; 440.0]
+Goal: {average = 2.5;
+ dev = 2.5;} 0.688899 [minorSixth; octave; minorSecond; fourth; minorSixth; octave; augmentedFourth;
+ sixth; minorSeventh; minorThird; third; minorThird; augmentedFourth; sixth;
+ minorSixth; minorSecond; fifth; sixth; fifth; fourth; fifth; minorSixth; third;
+ minorThird; second; minorThird; fifth; minorSeventh; minorSecond; third; fifth;
+ minorSecond; fourth; sixth; octave; augmentedFourth; minorSeventh; unison;
+ minorThird; fifth]
+true
+Freqs: [523.2511306; 493.8833013; 622.2539674; 622.2539674; 587.3295358; 440.0;
+ 554.365262; 554.365262; 783.990872; 466.1637615; 523.2511306; 440.0;
+ 698.4564629; 587.3295358; 830.6093952; 493.8833013; 622.2539674; 587.3295358;
+ 783.990872; 466.1637615; 622.2539674; 466.1637615; 622.2539674; 783.990872;
+ 622.2539674; 523.2511306; 466.1637615; 783.990872; 523.2511306; 587.3295358;
+ 554.365262; 440.0; 587.3295358; 554.365262; 830.6093952; 493.8833013;
+ 493.8833013; 698.4564629; 783.990872; 783.990872; 659.2551138; 440.0]
+Goal: {average = 2.5;
+ dev = 2.5;} 4.073120 [minorSecond; minorSixth; octave; minorSecond; fourth; minorSixth; octave;
+ augmentedFourth; sixth; minorSeventh; minorThird; third; minorThird;
+ augmentedFourth; sixth; minorSixth; minorSecond; fifth; sixth; fifth; fourth;
+ fifth; minorSixth; third; minorThird; second; minorThird; fifth; minorSeventh;
+ minorSecond; third; fifth; minorSecond; fourth; sixth; octave; augmentedFourth;
+ minorSeventh; unison; minorThird; fifth]
+true
+Freqs: [466.1637615; 523.2511306; 493.8833013; 622.2539674; 622.2539674; 587.3295358;
+ 440.0; 554.365262; 554.365262; 783.990872; 466.1637615; 523.2511306; 440.0;
+ 698.4564629; 587.3295358; 830.6093952; 493.8833013; 622.2539674; 587.3295358;
+ 783.990872; 466.1637615; 622.2539674; 466.1637615; 622.2539674; 783.990872;
+ 622.2539674; 523.2511306; 466.1637615; 783.990872; 523.2511306; 587.3295358;
+ 554.365262; 440.0; 587.3295358; 554.365262; 830.6093952; 493.8833013;
+ 493.8833013; 698.4564629; 783.990872; 783.990872; 659.2551138; 440.0]
+Goal: {average = 2.5;
+ dev = 2.5;} 3.457603 [minorSeventh; minorSecond; minorSixth; octave; minorSecond; fourth; minorSixth;
+ octave; augmentedFourth; sixth; minorSeventh; minorThird; third; minorThird;
+ augmentedFourth; sixth; minorSixth; minorSecond; fifth; sixth; fifth; fourth;
+ fifth; minorSixth; third; minorThird; second; minorThird; fifth; minorSeventh;
+ minorSecond; third; fifth; minorSecond; fourth; sixth; octave; augmentedFourth;
+ minorSeventh; unison; minorThird; fifth]
+true
+Freqs: [659.2551138; 466.1637615; 523.2511306; 493.8833013; 622.2539674; 622.2539674;
+ 587.3295358; 440.0; 554.365262; 554.365262; 783.990872; 466.1637615;
+ 523.2511306; 440.0; 698.4564629; 587.3295358; 830.6093952; 493.8833013;
+ 622.2539674; 587.3295358; 783.990872; 466.1637615; 622.2539674; 466.1637615;
+ 622.2539674; 783.990872; 622.2539674; 523.2511306; 466.1637615; 783.990872;
+ 523.2511306; 587.3295358; 554.365262; 440.0; 587.3295358; 554.365262;
+ 830.6093952; 493.8833013; 493.8833013; 698.4564629; 783.990872; 783.990872;
+ 659.2551138; 440.0]
+Goal: {average = 2.5;
+ dev = 2.5;} 1.287506 [augmentedFourth; minorSeventh; minorSecond; minorSixth; octave; minorSecond;
+ fourth; minorSixth; octave; augmentedFourth; sixth; minorSeventh; minorThird;
+ third; minorThird; augmentedFourth; sixth; minorSixth; minorSecond; fifth;
+ sixth; fifth; fourth; fifth; minorSixth; third; minorThird; second; minorThird;
+ fifth; minorSeventh; minorSecond; third; fifth; minorSecond; fourth; sixth;
+ octave; augmentedFourth; minorSeventh; unison; minorThird; fifth]
+true
+Freqs: [783.990872; 659.2551138; 466.1637615; 523.2511306; 493.8833013; 622.2539674;
+ 622.2539674; 587.3295358; 440.0; 554.365262; 554.365262; 783.990872;
+ 466.1637615; 523.2511306; 440.0; 698.4564629; 587.3295358; 830.6093952;
+ 493.8833013; 622.2539674; 587.3295358; 783.990872; 466.1637615; 622.2539674;
+ 466.1637615; 622.2539674; 783.990872; 622.2539674; 523.2511306; 466.1637615;
+ 783.990872; 523.2511306; 587.3295358; 554.365262; 440.0; 587.3295358;
+ 554.365262; 830.6093952; 493.8833013; 493.8833013; 698.4564629; 783.990872;
+ 783.990872; 659.2551138; 440.0]
+Goal: {average = 2.5;
+ dev = 2.5;} 1.101705 [minorThird; augmentedFourth; minorSeventh; minorSecond; minorSixth; octave;
+ minorSecond; fourth; minorSixth; octave; augmentedFourth; sixth; minorSeventh;
+ minorThird; third; minorThird; augmentedFourth; sixth; minorSixth; minorSecond;
+ fifth; sixth; fifth; fourth; fifth; minorSixth; third; minorThird; second;
+ minorThird; fifth; minorSeventh; minorSecond; third; fifth; minorSecond; fourth;
+ sixth; octave; augmentedFourth; minorSeventh; unison; minorThird; fifth]
+true
+Freqs: [659.2551138; 783.990872; 659.2551138; 466.1637615; 523.2511306; 493.8833013;
+ 622.2539674; 622.2539674; 587.3295358; 440.0; 554.365262; 554.365262;
+ 783.990872; 466.1637615; 523.2511306; 440.0; 698.4564629; 587.3295358;
+ 830.6093952; 493.8833013; 622.2539674; 587.3295358; 783.990872; 466.1637615;
+ 622.2539674; 466.1637615; 622.2539674; 783.990872; 622.2539674; 523.2511306;
+ 466.1637615; 783.990872; 523.2511306; 587.3295358; 554.365262; 440.0;
+ 587.3295358; 554.365262; 830.6093952; 493.8833013; 493.8833013; 698.4564629;
+ 783.990872; 783.990872; 659.2551138; 440.0]
+Goal: {average = 2.5;
+ dev = 2.5;} 1.033352 [sixth; minorThird; augmentedFourth; minorSeventh; minorSecond; minorSixth;
+ octave; minorSecond; fourth; minorSixth; octave; augmentedFourth; sixth;
+ minorSeventh; minorThird; third; minorThird; augmentedFourth; sixth; minorSixth;
+ minorSecond; fifth; sixth; fifth; fourth; fifth; minorSixth; third; minorThird;
+ second; minorThird; fifth; minorSeventh; minorSecond; third; fifth; minorSecond;
+ fourth; sixth; octave; augmentedFourth; minorSeventh; unison; minorThird; fifth]
+true
+Freqs: [440.0; 659.2551138; 783.990872; 659.2551138; 466.1637615; 523.2511306;
+ 493.8833013; 622.2539674; 622.2539674; 587.3295358; 440.0; 554.365262;
+ 554.365262; 783.990872; 466.1637615; 523.2511306; 440.0; 698.4564629;
+ 587.3295358; 830.6093952; 493.8833013; 622.2539674; 587.3295358; 783.990872;
+ 466.1637615; 622.2539674; 466.1637615; 622.2539674; 783.990872; 622.2539674;
+ 523.2511306; 466.1637615; 783.990872; 523.2511306; 587.3295358; 554.365262;
+ 440.0; 587.3295358; 554.365262; 830.6093952; 493.8833013; 493.8833013;
+ 698.4564629; 783.990872; 783.990872; 659.2551138; 440.0]
+Goal: {average = 2.5;
+ dev = 2.5;} 0.414596 [fourth; sixth; minorThird; augmentedFourth; minorSeventh; minorSecond;
+ minorSixth; octave; minorSecond; fourth; minorSixth; octave; augmentedFourth;
+ sixth; minorSeventh; minorThird; third; minorThird; augmentedFourth; sixth;
+ minorSixth; minorSecond; fifth; sixth; fifth; fourth; fifth; minorSixth; third;
+ minorThird; second; minorThird; fifth; minorSeventh; minorSecond; third; fifth;
+ minorSecond; fourth; sixth; octave; augmentedFourth; minorSeventh; unison;
+ minorThird; fifth]
+true
+Freqs: [493.8833013; 440.0; 659.2551138; 783.990872; 659.2551138; 466.1637615;
+ 523.2511306; 493.8833013; 622.2539674; 622.2539674; 587.3295358; 440.0;
+ 554.365262; 554.365262; 783.990872; 466.1637615; 523.2511306; 440.0;
+ 698.4564629; 587.3295358; 830.6093952; 493.8833013; 622.2539674; 587.3295358;
+ 783.990872; 466.1637615; 622.2539674; 466.1637615; 622.2539674; 783.990872;
+ 622.2539674; 523.2511306; 466.1637615; 783.990872; 523.2511306; 587.3295358;
+ 554.365262; 440.0; 587.3295358; 554.365262; 830.6093952; 493.8833013;
+ 493.8833013; 698.4564629; 783.990872; 783.990872; 659.2551138; 440.0]
+Goal: {average = 2.5;
+ dev = 2.5;} 2.111707 [second; fourth; sixth; minorThird; augmentedFourth; minorSeventh; minorSecond;
+ minorSixth; octave; minorSecond; fourth; minorSixth; octave; augmentedFourth;
+ sixth; minorSeventh; minorThird; third; minorThird; augmentedFourth; sixth;
+ minorSixth; minorSecond; fifth; sixth; fifth; fourth; fifth; minorSixth; third;
+ minorThird; second; minorThird; fifth; minorSeventh; minorSecond; third; fifth;
+ minorSecond; fourth; sixth; octave; augmentedFourth; minorSeventh; unison;
+ minorThird; fifth]
+true
+Freqs: [493.8833013; 493.8833013; 440.0; 659.2551138; 783.990872; 659.2551138;
+ 466.1637615; 523.2511306; 493.8833013; 622.2539674; 622.2539674; 587.3295358;
+ 440.0; 554.365262; 554.365262; 783.990872; 466.1637615; 523.2511306; 440.0;
+ 698.4564629; 587.3295358; 830.6093952; 493.8833013; 622.2539674; 587.3295358;
+ 783.990872; 466.1637615; 622.2539674; 466.1637615; 622.2539674; 783.990872;
+ 622.2539674; 523.2511306; 466.1637615; 783.990872; 523.2511306; 587.3295358;
+ 554.365262; 440.0; 587.3295358; 554.365262; 830.6093952; 493.8833013;
+ 493.8833013; 698.4564629; 783.990872; 783.990872; 659.2551138; 440.0]
+Goal: {average = 2.5;
+ dev = 2.5;} 0.776855 [octave; second; fourth; sixth; minorThird; augmentedFourth; minorSeventh;
+ minorSecond; minorSixth; octave; minorSecond; fourth; minorSixth; octave;
+ augmentedFourth; sixth; minorSeventh; minorThird; third; minorThird;
+ augmentedFourth; sixth; minorSixth; minorSecond; fifth; sixth; fifth; fourth;
+ fifth; minorSixth; third; minorThird; second; minorThird; fifth; minorSeventh;
+ minorSecond; third; fifth; minorSecond; fourth; sixth; octave; augmentedFourth;
+ minorSeventh; unison; minorThird; fifth]
+true
+Freqs: [783.990872; 493.8833013; 493.8833013; 440.0; 659.2551138; 783.990872;
+ 659.2551138; 466.1637615; 523.2511306; 493.8833013; 622.2539674; 622.2539674;
+ 587.3295358; 440.0; 554.365262; 554.365262; 783.990872; 466.1637615;
+ 523.2511306; 440.0; 698.4564629; 587.3295358; 830.6093952; 493.8833013;
+ 622.2539674; 587.3295358; 783.990872; 466.1637615; 622.2539674; 466.1637615;
+ 622.2539674; 783.990872; 622.2539674; 523.2511306; 466.1637615; 783.990872;
+ 523.2511306; 587.3295358; 554.365262; 440.0; 587.3295358; 554.365262;
+ 830.6093952; 493.8833013; 493.8833013; 698.4564629; 783.990872; 783.990872;
+ 659.2551138; 440.0]
+Goal: {average = 2.5;
+ dev = 2.5;} 0.425342 [minorSixth; octave; second; fourth; sixth; minorThird; augmentedFourth;
+ minorSeventh; minorSecond; minorSixth; octave; minorSecond; fourth; minorSixth;
+ octave; augmentedFourth; sixth; minorSeventh; minorThird; third; minorThird;
+ augmentedFourth; sixth; minorSixth; minorSecond; fifth; sixth; fifth; fourth;
+ fifth; minorSixth; third; minorThird; second; minorThird; fifth; minorSeventh;
+ minorSecond; third; fifth; minorSecond; fourth; sixth; octave; augmentedFourth;
+ minorSeventh; unison; minorThird; fifth]
+true
+Freqs: [523.2511306; 783.990872; 493.8833013; 493.8833013; 440.0; 659.2551138;
+ 783.990872; 659.2551138; 466.1637615; 523.2511306; 493.8833013; 622.2539674;
+ 622.2539674; 587.3295358; 440.0; 554.365262; 554.365262; 783.990872;
+ 466.1637615; 523.2511306; 440.0; 698.4564629; 587.3295358; 830.6093952;
+ 493.8833013; 622.2539674; 587.3295358; 783.990872; 466.1637615; 622.2539674;
+ 466.1637615; 622.2539674; 783.990872; 622.2539674; 523.2511306; 466.1637615;
+ 783.990872; 523.2511306; 587.3295358; 554.365262; 440.0; 587.3295358;
+ 554.365262; 830.6093952; 493.8833013; 493.8833013; 698.4564629; 783.990872;
+ 783.990872; 659.2551138; 440.0]
+Goal: {average = 2.5;
+ dev = 2.5;} 0.190922 [fourth; minorSixth; octave; second; fourth; sixth; minorThird; augmentedFourth;
+ minorSeventh; minorSecond; minorSixth; octave; minorSecond; fourth; minorSixth;
+ octave; augmentedFourth; sixth; minorSeventh; minorThird; third; minorThird;
+ augmentedFourth; sixth; minorSixth; minorSecond; fifth; sixth; fifth; fourth;
+ fifth; minorSixth; third; minorThird; second; minorThird; fifth; minorSeventh;
+ minorSecond; third; fifth; minorSecond; fourth; sixth; octave; augmentedFourth;
+ minorSeventh; unison; minorThird; fifth]
+true
+
+module Notes = begin
+  val calcFreqFromNote : n:WithPath.Note -> float
+  val fn :
+    r:float ->
+      seed:WithPath.Note ->
+        goal:WithPath.Goal ->
+          testval:GenScript.Interval -> path:GenScript.Interval list -> bool
+  val startingNote : WithPath.Note = A
+  val randomIntervalPathWithGoal : GenScript.Interval list =
+    [fourth; minorSixth; octave; second; fourth; sixth; minorThird;
+     augmentedFourth; minorSeventh; minorSecond; minorSixth; octave;
+     minorSecond; fourth; minorSixth; octave; augmentedFourth; sixth;
+     minorSeventh; minorThird; third; minorThird; augmentedFourth; sixth;
+     minorSixth; minorSecond; fifth; sixth; fifth; fourth; fifth; minorSixth;
+     third; minorThird; second; minorThird; fifth; minorSeventh; minorSecond;
+     third; fifth; minorSecond; fourth; sixth; octave; augmentedFourth;
+     minorSeventh; unison; minorThird; fifth]
+  val sequence : WithPath.Note list =
+    [A; E; G; G; F; Cb; Cb; Gs; Cs; D; A; Cs; D; C; G; As; C; Ds; G; Ds; As;
+     Ds; As; G; D; Ds; Cb; Gs; D; F; A; C; As; G; Cs; Cs; A; D; Ds; Ds; Cb; C;
+     As; E; G; E; A; Cb; Cb; G; C]
+end
+
+> 

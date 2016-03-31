@@ -1,5 +1,6 @@
 package me.shaftesbury;
 
+import me.shaftesbury.utils.functional.Func;
 import me.shaftesbury.utils.functional.Func2;
 import me.shaftesbury.utils.functional.Functional;
 import me.shaftesbury.utils.functional.IterableHelper;
@@ -8,7 +9,7 @@ import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 
-public abstract class Scale implements Iterable<Note>
+public abstract class EqualTemperedScale implements Iterable<Note>
 {
     private final Note rootNote;
     private final List<Step> steps;
@@ -20,7 +21,7 @@ public abstract class Scale implements Iterable<Note>
         return notes.iterator();
     }
 
-    protected Scale(final Note rootNote, final List<Step> steps)
+    protected EqualTemperedScale(final Note rootNote, final List<Step> steps)
     {
         this.rootNote=rootNote;
         this.steps=CircularArrayList.asCircularArrayList(steps);
@@ -59,27 +60,27 @@ public abstract class Scale implements Iterable<Note>
         return notes.get(index);
     }
 
-//    private int findIndex(final Note note)
-//    {
-//        return Functional.findIndex(new Func<Note, Boolean>() {
-//            @Override
-//            public Boolean apply(final Note n) {
-//                return Note.asName(note).getValue0().equals(Note.asName(n).getValue0());
-//            }
-//        }, notes);
-//    }
+    private int findIndex(final Note note)
+    {
+        return Functional.findIndex(new Func<Note, Boolean>() {
+            @Override
+            public Boolean apply(final Note n) {
+                return Note.pitchClass(note).equals(Note.pitchClass(n));
+            }
+        }, notes);
+    }
 
-//    public Note getPrecedingNote(final Note note)
-//    {
-//        final int index = findIndex(note);
-//        return Note.subtractStep(steps.get(index), note);
-//    }
+    public Note getPrecedingNote(final Note note)
+    {
+        final int index = findIndex(note);
+        return Note.subtractStep(steps.get(index), note);
+    }
 
-//    public Note getFollowingNote(final Note note)
-//    {
-//        final int index = findIndex(note);
-//        return Note.addStep(steps.get(index), note);
-//    }
+    public Note getFollowingNote(final Note note)
+    {
+        final int index = findIndex(note);
+        return Note.addStep(steps.get(index), note);
+    }
 
     public Note getRootNote()
     {

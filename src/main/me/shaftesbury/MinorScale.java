@@ -2,9 +2,9 @@ package me.shaftesbury;
 
 import java.util.Arrays;
 
-public class MinorScale extends Scale
+public class MinorScale extends EqualTemperedScale
 {
-    public static Scale create(final Note rootNote) { return new MinorScale(rootNote); }
+    public static EqualTemperedScale create(final Note rootNote) { return new MinorScale(rootNote); }
 
     public MinorScale(final Note rootNote)
     {

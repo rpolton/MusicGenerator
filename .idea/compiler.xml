@@ -25,5 +25,8 @@
         <module name="MusicGenerator" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="MusicGenerator" target="1.6" />
+    </bytecodeTargetLevel>
   </component>
 </project>

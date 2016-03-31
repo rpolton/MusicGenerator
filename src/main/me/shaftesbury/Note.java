@@ -121,12 +121,15 @@ public class Note {
 
         throw new IllegalStateException("Unrecognised step");
     }
-//
-//    public static Note subtractStep(final Step step, final Note note)
-//    {
-//        final Note halfstep = decrement(note);
-//        return step==Step.Whole ? decrement(halfstep) : halfstep;
-//    }
+
+    public static Note subtractStep(final Step step, final Note note)
+    {
+        if(step.equals(Step.Half)) return decrement(note);
+        if(step.equals(Step.Whole)) return decrement(decrement(note));
+        if(step.equals(Step.AugSecond)) return decrement(decrement(decrement(note)));
+
+        throw new IllegalStateException("Unrecognised step");
+    }
 
     public static Note incrementByHalfStep(final Note note)
     {
