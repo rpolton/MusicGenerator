@@ -108,24 +108,66 @@ public class NoteTest
     }
 
     @Test
-    public void verifyAddHalfStepMovesFromAToASharp()
+    public void verifyAddHalfStep()
     {
-        final Note A440 = new Note("A",4);
-        final Note expected = new Note("A#",4);
+        final List<Note> input = Lists.newArrayList(new Note("A",3),new Note("B",3),new Note("C",4),new Note("D",4),new Note("E",4),new Note("F",4),new Note("G",4));
+        final List<Note> expected = Lists.newArrayList(new Note("A#",3),new Note("C",4),new Note("C#",4),new Note("D#",4),new Note("F",4),new Note("F#",4),new Note("G#",4));
 
-        final Note output = Note.addStep(Step.Half, A440);
+        final List<Note> output = Lists.newArrayList();
+        for(final Note note : input)
+        {
+            final Note followingNote = Note.addStep(Step.Half,note);
+            output.add(followingNote);
+        }
 
-        Assert.assertEquals(expected,output);
+        Assert.assertArrayEquals(expected.toArray(new Note[0]),output.toArray(new Note[0]));
     }
 
     @Test
-    public void verifyAddWholeStepMovesFromAToB()
+    public void verifyAddWholeStep()
     {
-        final Note A440 = new Note("A",4);
-        final Note expected = new Note("B",4);
+        final List<Note> input = Lists.newArrayList(new Note("A",3),new Note("B",3),new Note("C",4),new Note("D",4),new Note("E",4),new Note("F",4),new Note("G",4));
+        final List<Note> expected = Lists.newArrayList(new Note("B",3),new Note("C#",4),new Note("D",4),new Note("E",4),new Note("F#",4),new Note("G",4),new Note("A",4));
 
-        final Note output = Note.addStep(Step.Whole, A440);
+        final List<Note> output = Lists.newArrayList();
+        for(final Note note : input)
+        {
+            final Note followingNote = Note.addStep(Step.Whole,note);
+            output.add(followingNote);
+        }
 
-        Assert.assertEquals(expected,output);
+        Assert.assertArrayEquals(expected.toArray(new Note[0]),output.toArray(new Note[0]));
+    }
+
+    @Test
+    public void verifySubtractHalfStep()
+    {
+        final List<Note> input = Lists.newArrayList(new Note("A",3),new Note("B",3),new Note("C",4),new Note("D",4),new Note("E",4),new Note("F",4),new Note("G",4));
+        final List<Note> expected = Lists.newArrayList(new Note("G#",3),new Note("A#",3),new Note("B",3),new Note("C#",4),new Note("D#",4),new Note("E",4),new Note("F#",4));
+
+        final List<Note> output = Lists.newArrayList();
+        for(final Note note : input)
+        {
+            final Note followingNote = Note.subtractStep(Step.Half,note);
+            output.add(followingNote);
+        }
+
+        Assert.assertArrayEquals(expected.toArray(new Note[0]),output.toArray(new Note[0]));
+    }
+
+    @Test
+    public void verifySubtractWholeStep()
+    {
+        final List<Note> input = Lists.newArrayList(new Note("A",3),new Note("B",3),new Note("C",4),new Note("D",4),new Note("E",4),new Note("F",4),new Note("G",4));
+        final List<Note> expected = Lists.newArrayList(new Note("G",3),new Note("A",3),new Note("A#",3),new Note("C",4),new Note("D",4),new Note("D#",4),new Note("F",4));
+
+        final List<Note> output = Lists.newArrayList();
+        for(final Note note : input)
+        {
+            final Note followingNote = Note.subtractStep(Step.Whole,note);
+            output.add(followingNote);
+        }
+
+        Assert.assertArrayEquals(expected.toArray(new Note[0]),output.toArray(new Note[0]));
     }
 }

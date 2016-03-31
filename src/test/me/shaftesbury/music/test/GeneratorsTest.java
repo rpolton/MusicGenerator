@@ -45,16 +45,16 @@ public class GeneratorsTest
         Assert.assertEquals(expected,output);
     }
 
-//    @Test
-//    public void findNextScaleNoteDown()
-//    {
-//        final Note middleC = new Note("C",4);
-//        final EqualTemperedScale CM = new MajorScale(middleC);
-//
-//        final Note output = Generators.nextNoteDownInKey(CM, Lists.newArrayList(middleC));
-//
-//        final Note expected = new Note("B",4);
-//
-//        Assert.assertEquals(expected,output);
-//    }
+    @Test
+    public void findNextScaleNoteDown()
+    {
+        final Note middleC = new Note("C",4);
+        final EqualTemperedScale CM = new MajorScale(middleC);
+
+        final Note output = Generators.nextNoteDownInKey(CM, Lists.newArrayList(middleC));
+
+        final Note expected = new Note("B",3);
+
+        Assert.assertEquals(expected,output);
+    }
 }

@@ -73,7 +73,7 @@ public abstract class EqualTemperedScale implements Iterable<Note>
     public Note getPrecedingNote(final Note note)
     {
         final int index = findIndex(note);
-        return Note.subtractStep(steps.get(index), note);
+        return Note.subtractStep(steps.get((index+steps.size()-1)%steps.size()), note);
     }
 
     public Note getFollowingNote(final Note note)

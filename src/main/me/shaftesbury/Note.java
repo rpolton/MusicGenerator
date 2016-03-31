@@ -141,7 +141,7 @@ public class Note {
     public static Note decrement(final Note note)
     {
         final int newOctave = note.octave -
-                ((note.pitchClass.equals(new PitchClass("B"))) ? 1 : 0);
+                ((note.pitchClass.equals(new PitchClass("C"))) ? 1 : 0);
         return new Note(PitchClass.subtractStep(Step.Half,note.pitchClass),newOctave);
     }
 }
