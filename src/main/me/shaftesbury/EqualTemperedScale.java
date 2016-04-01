@@ -12,7 +12,7 @@ import java.util.List;
 public abstract class EqualTemperedScale implements Iterable<Note>
 {
     private final Note rootNote;
-    private final List<Step> steps;
+    private final List<Interval> intervals;
     private final List<PitchClass> noteNames;
     private final List<Note> notes;
 
@@ -21,35 +21,35 @@ public abstract class EqualTemperedScale implements Iterable<Note>
         return notes.iterator();
     }
 
-    protected EqualTemperedScale(final Note rootNote, final List<Step> steps)
+    protected EqualTemperedScale(final Note rootNote, final List<Interval> intervals)
     {
         this.rootNote=rootNote;
-        this.steps=CircularArrayList.asCircularArrayList(steps);
+        this.intervals =CircularArrayList.asCircularArrayList(intervals);
         this.noteNames = CircularArrayList.seqAsCircularArrayList(
-                pitchClassGenerator(rootNote, steps));
-        this.notes = noteGenerator(rootNote,steps);
+                pitchClassGenerator(rootNote, intervals));
+        this.notes = noteGenerator(rootNote, intervals);
     }
 
-    private static List<PitchClass> pitchClassGenerator(final Note rootNote, final List<Step> steps) {
-        return IterableHelper.create(steps).
-                take(steps.size()-1).
-                fold(new Func2<List<PitchClass>, Step, List<PitchClass>>() {
+    private static List<PitchClass> pitchClassGenerator(final Note rootNote, final List<Interval> intervals) {
+        return IterableHelper.create(intervals).
+                take(intervals.size()-1).
+                fold(new Func2<List<PitchClass>, Interval, List<PitchClass>>() {
                     @Override
-                    public List<PitchClass> apply(final List<PitchClass> notes, final Step step) {
+                    public List<PitchClass> apply(final List<PitchClass> notes, final Interval interval) {
                         final PitchClass last = Functional.last(notes);
-                        return Functional.concat(notes, Arrays.asList(PitchClass.addStep(step, last)));
+                        return Functional.concat(notes, Arrays.asList(PitchClass.addStep(interval, last)));
                     }
                 }, Arrays.asList(Note.pitchClass(rootNote)));
     }
 
-    private static List<Note> noteGenerator(final Note rootNote, final List<Step> steps) {
-        return IterableHelper.create(steps).
-                take(steps.size()-1).
-                fold(new Func2<List<Note>, Step, List<Note>>() {
+    private static List<Note> noteGenerator(final Note rootNote, final List<Interval> intervals) {
+        return IterableHelper.create(intervals).
+                take(intervals.size()-1).
+                fold(new Func2<List<Note>, Interval, List<Note>>() {
                     @Override
-                    public List<Note> apply(final List<Note> notes, final Step step) {
+                    public List<Note> apply(final List<Note> notes, final Interval interval) {
                         final Note last = Functional.last(notes);
-                        return Functional.concat(notes, Arrays.asList(Note.addStep(step, last)));
+                        return Functional.concat(notes, Arrays.asList(Note.addStep(interval, last)));
                     }
                 }, Arrays.asList(rootNote));
     }
@@ -73,13 +73,13 @@ public abstract class EqualTemperedScale implements Iterable<Note>
     public Note getPrecedingNote(final Note note)
     {
         final int index = findIndex(note);
-        return Note.subtractStep(steps.get((index+steps.size()-1)%steps.size()), note);
+        return Note.subtractStep(intervals.get((index+ intervals.size()-1)% intervals.size()), note);
     }
 
     public Note getFollowingNote(final Note note)
     {
         final int index = findIndex(note);
-        return Note.addStep(steps.get(index), note);
+        return Note.addStep(intervals.get(index), note);
     }
 
     public Note getRootNote()

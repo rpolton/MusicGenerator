@@ -2,7 +2,7 @@ package me.shaftesbury.music.test;
 
 import com.google.common.collect.Lists;
 import me.shaftesbury.Note;
-import me.shaftesbury.Step;
+import me.shaftesbury.Interval;
 import me.shaftesbury.utils.functional.Func;
 import me.shaftesbury.utils.functional.Functional;
 import org.javatuples.Pair;
@@ -116,7 +116,7 @@ public class NoteTest
         final List<Note> output = Lists.newArrayList();
         for(final Note note : input)
         {
-            final Note followingNote = Note.addStep(Step.Half,note);
+            final Note followingNote = Note.addStep(Interval.MinorSecond,note);
             output.add(followingNote);
         }
 
@@ -132,7 +132,7 @@ public class NoteTest
         final List<Note> output = Lists.newArrayList();
         for(final Note note : input)
         {
-            final Note followingNote = Note.addStep(Step.Whole,note);
+            final Note followingNote = Note.addStep(Interval.Second,note);
             output.add(followingNote);
         }
 
@@ -148,7 +148,7 @@ public class NoteTest
         final List<Note> output = Lists.newArrayList();
         for(final Note note : input)
         {
-            final Note followingNote = Note.subtractStep(Step.Half,note);
+            final Note followingNote = Note.subtractStep(Interval.MinorSecond,note);
             output.add(followingNote);
         }
 
@@ -164,7 +164,7 @@ public class NoteTest
         final List<Note> output = Lists.newArrayList();
         for(final Note note : input)
         {
-            final Note followingNote = Note.subtractStep(Step.Whole,note);
+            final Note followingNote = Note.subtractStep(Interval.Second,note);
             output.add(followingNote);
         }
 

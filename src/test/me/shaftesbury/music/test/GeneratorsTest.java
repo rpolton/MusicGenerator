@@ -1,13 +1,14 @@
 package me.shaftesbury.music.test;
 
 import com.google.common.collect.Lists;
+import me.shaftesbury.EqualTemperedScale;
 import me.shaftesbury.Generators;
 import me.shaftesbury.MajorScale;
 import me.shaftesbury.Note;
-import me.shaftesbury.EqualTemperedScale;
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.util.List;
 import java.util.Random;
 
 public class GeneratorsTest
@@ -63,9 +64,14 @@ public class GeneratorsTest
     @Test
     public void nextNoteConstantDissonanceTest()
     {
+        final List<Note> notes = Lists.newArrayList();
         for(int i=0;i<10;++i) {
-            final Note generatedNote = Generators.nextNoteConstantDissonance(new Random(), 5, 2.5, 0.5, Lists.<Note>newArrayList(new Note("A", 4)));
+            final Note generatedNote = Generators.nextNoteConstantDissonance(new Random(), 5, 2.5, 0.5, Lists.newArrayList(new Note("A", 4)));
+            notes.add(generatedNote);
             System.out.println(generatedNote);
         }
+
+        for(final Note note : notes)
+            System.out.print(note+" ");
     }
 }

@@ -48,22 +48,22 @@ public class PitchClass
 
     public String toString(){return p.toString();}
 
-    public static PitchClass addStep(final Step step, final PitchClass note)
+    public static PitchClass addStep(final Interval interval, final PitchClass note)
     {
-        if(step==Step.Half) return addSteps(1, note);
-        if(step==Step.Whole) return addSteps(2, note);
-        if(step==Step.AugSecond) return addSteps(3, note);
+        if(interval == Interval.MinorSecond) return addSteps(1, note);
+        if(interval == Interval.Second) return addSteps(2, note);
+        if(interval == Interval.MinorThird) return addSteps(3, note);
 
-        throw new IllegalStateException("Unexpected step size "+step);
+        throw new IllegalStateException("Unexpected step size "+ interval);
     }
 
-    public static PitchClass subtractStep(final Step step, final PitchClass note)
+    public static PitchClass subtractStep(final Interval interval, final PitchClass note)
     {
-        if(step==Step.Half) return subtractSteps(1, note);
-        if(step==Step.Whole) return subtractSteps(2, note);
-        if(step==Step.AugSecond) return subtractSteps(3, note);
+        if(interval == Interval.MinorSecond) return subtractSteps(1, note);
+        if(interval == Interval.Second) return subtractSteps(2, note);
+        if(interval == Interval.MinorThird) return subtractSteps(3, note);
 
-        throw new IllegalStateException("Unexpected step size "+step);
+        throw new IllegalStateException("Unexpected step size "+ interval);
     }
 
     private static PitchClass addSteps(final int howManySteps, final PitchClass note)

@@ -8,7 +8,7 @@ public class MajorScale extends EqualTemperedScale
 
     public MajorScale(final Note rootNote)
     {
-        super(rootNote,Arrays.asList(Step.Whole,Step.Whole,Step.Half,Step.Whole,Step.Whole,Step.Whole,Step.Half));
+        super(rootNote,Arrays.asList(Interval.Second, Interval.Second, Interval.MinorSecond, Interval.Second, Interval.Second, Interval.Second, Interval.MinorSecond));
     }
 
 //    public static Note getNote(final MajorScale scale, final int index)

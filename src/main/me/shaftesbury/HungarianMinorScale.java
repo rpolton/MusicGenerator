@@ -8,7 +8,7 @@ public class HungarianMinorScale extends EqualTemperedScale
 
     public HungarianMinorScale(final Note rootNote)
     {
-        super(rootNote,Arrays.asList(Step.Whole,Step.Half,Step.AugSecond,Step.Half,Step.Half,Step.AugSecond,Step.Half));
+        super(rootNote,Arrays.asList(Interval.Second, Interval.MinorSecond, Interval.MinorThird, Interval.MinorSecond, Interval.MinorSecond, Interval.MinorThird, Interval.MinorSecond));
     }
 
 //    public static Note getNote(final MajorScale scale, final int index)

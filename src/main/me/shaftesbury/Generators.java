@@ -16,28 +16,27 @@ public class Generators
         {
             final Note prevNote = prev2.get(0);
             final double prevFreq = Note.toFreq(prevNote);
-            Note testNote=null;
             double dissonance1;
             int attempts=0;
             final Map<Note,Double> dissonances = new HashMap<Note, Double>();
-            Note n=Note.addStep(Step.Half,prevNote);
+            Note n=Note.addStep(Interval.MinorSecond,prevNote);
             do {
                 //test all notes
                 final double to = Note.toFreq(n);
                 dissonance1 = SMPCFunctions.dissonance(prevFreq, to, 7);
                 dissonances.put(n,dissonance1);
                 System.out.println(String.format("Testing with %s having dissonance %f", n, dissonance1));
-                n = Note.addStep(Step.Half,n);
+                n = Note.addStep(Interval.MinorSecond,n);
             }while(! Note.pitchClass(n).equals(Note.pitchClass(prevNote)));
 
-            n=Note.subtractStep(Step.Half,prevNote);
+            n=Note.subtractStep(Interval.MinorSecond,prevNote);
             do {
                 //test all notes
                 final double to = Note.toFreq(n);
                 dissonance1 = SMPCFunctions.dissonance(prevFreq, to, 7);
                 dissonances.put(n,dissonance1);
                 System.out.println(String.format("Testing with %s having dissonance %f", n, dissonance1));
-                n = Note.subtractStep(Step.Half,n);
+                n = Note.subtractStep(Interval.MinorSecond,n);
             }while(! Note.pitchClass(n).equals(Note.pitchClass(prevNote)));
 
             double nearest=dissonance;
@@ -53,7 +52,7 @@ public class Generators
                 }
             }
 
-            System.out.println(String.format("Choosing %s",nearestNote));
+            System.out.println(String.format("Choosing %s with dissonance %f",nearestNote, nearest));
             return nearestNote;
         }
 

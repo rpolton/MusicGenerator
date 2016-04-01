@@ -8,7 +8,7 @@ public class MinorScale extends EqualTemperedScale
 
     public MinorScale(final Note rootNote)
     {
-        super(rootNote,Arrays.asList(Step.Whole,Step.Half,Step.Whole,Step.Whole,Step.Half,Step.Whole,Step.Whole));
+        super(rootNote,Arrays.asList(Interval.Second, Interval.MinorSecond, Interval.Second, Interval.Second, Interval.MinorSecond, Interval.Second, Interval.Second));
     }
 
 //    public static Note getNote(final MinorScale scale, final int index)

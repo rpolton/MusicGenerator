@@ -114,20 +114,20 @@ public class Note {
         throw new IllegalStateException(String.format("%s not recognised. Calculation must be performed to determine the frequency.", note));
     }
 
-    public static Note addStep(final Step step, final Note note)
+    public static Note addStep(final Interval interval, final Note note)
     {
-        if(step.equals(Step.Half)) return incrementByHalfStep(note);
-        if(step.equals(Step.Whole)) return incrementByHalfStep(incrementByHalfStep(note));
-        if(step.equals(Step.AugSecond)) return incrementByHalfStep(incrementByHalfStep(incrementByHalfStep(note)));
+        if(interval.equals(Interval.MinorSecond)) return incrementByHalfStep(note);
+        if(interval.equals(Interval.Second)) return incrementByHalfStep(incrementByHalfStep(note));
+        if(interval.equals(Interval.MinorThird)) return incrementByHalfStep(incrementByHalfStep(incrementByHalfStep(note)));
 
         throw new IllegalStateException("Unrecognised step");
     }
 
-    public static Note subtractStep(final Step step, final Note note)
+    public static Note subtractStep(final Interval interval, final Note note)
     {
-        if(step.equals(Step.Half)) return decrement(note);
-        if(step.equals(Step.Whole)) return decrement(decrement(note));
-        if(step.equals(Step.AugSecond)) return decrement(decrement(decrement(note)));
+        if(interval.equals(Interval.MinorSecond)) return decrement(note);
+        if(interval.equals(Interval.Second)) return decrement(decrement(note));
+        if(interval.equals(Interval.MinorThird)) return decrement(decrement(decrement(note)));
 
         throw new IllegalStateException("Unrecognised step");
     }
@@ -136,13 +136,13 @@ public class Note {
     {
         final int newOctave = note.octave +
                 ((note.pitchClass.equals(new PitchClass("B"))) ? 1 : 0 );
-        return new Note(PitchClass.addStep(Step.Half,note.pitchClass),newOctave);
+        return new Note(PitchClass.addStep(Interval.MinorSecond,note.pitchClass),newOctave);
     }
 
     public static Note decrement(final Note note)
     {
         final int newOctave = note.octave -
                 ((note.pitchClass.equals(new PitchClass("C"))) ? 1 : 0);
-        return new Note(PitchClass.subtractStep(Step.Half,note.pitchClass),newOctave);
+        return new Note(PitchClass.subtractStep(Interval.MinorSecond,note.pitchClass),newOctave);
     }
 }
