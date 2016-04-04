@@ -25,7 +25,7 @@ public class Generators
                 final double to = Note.toFreq(n);
                 dissonance1 = SMPCFunctions.dissonance(prevFreq, to, 7);
                 dissonances.put(n,dissonance1);
-                System.out.println(String.format("Testing with %s having dissonance %f", n, dissonance1));
+                System.out.println(String.format("Testing with %s having dissonanceBetweenComponents %f", n, dissonance1));
                 n = Note.addStep(Interval.MinorSecond,n);
             }while(! Note.pitchClass(n).equals(Note.pitchClass(prevNote)));
 
@@ -35,7 +35,7 @@ public class Generators
                 final double to = Note.toFreq(n);
                 dissonance1 = SMPCFunctions.dissonance(prevFreq, to, 7);
                 dissonances.put(n,dissonance1);
-                System.out.println(String.format("Testing with %s having dissonance %f", n, dissonance1));
+                System.out.println(String.format("Testing with %s having dissonanceBetweenComponents %f", n, dissonance1));
                 n = Note.subtractStep(Interval.MinorSecond,n);
             }while(! Note.pitchClass(n).equals(Note.pitchClass(prevNote)));
 
@@ -43,7 +43,7 @@ public class Generators
             Note nearestNote=prevNote;
             for(final Map.Entry<Note,Double> entry : dissonances.entrySet())
             {
-                // find the note with dissonance nearest the required amount.
+                // find the note with dissonanceBetweenComponents nearest the required amount.
                 // Choose randomly from them if there are more than one.
                 if(Math.abs(entry.getValue()-dissonance)<nearest)
                 {
@@ -52,7 +52,7 @@ public class Generators
                 }
             }
 
-            System.out.println(String.format("Choosing %s with dissonance %f",nearestNote, nearest));
+            System.out.println(String.format("Choosing %s with dissonanceBetweenComponents %f",nearestNote, nearest));
             return nearestNote;
         }
 

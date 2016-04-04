@@ -24,7 +24,7 @@ public final class SMPCFunctions
      * @param f2 is a pair containing the fundamental frequency and an int which indicates which overtone we are using from the fundamental
      * @return
      */
-    static double dissonance(final Pair<Double,Integer> f1, final Pair<Double,Integer> f2)
+    static double dissonanceBetweenComponents(final Pair<Double,Integer> f1, final Pair<Double,Integer> f2)
     {
         final double freq1 = f1.getValue0();
         final double freq2 = f2.getValue0();
@@ -45,7 +45,7 @@ public final class SMPCFunctions
     }
 
     /**
-     * Calculate the total dissonance, D, for a pair of tones with fundamental frequencies f1 and f2
+     * Calculate the total dissonanceBetweenComponents, D, for a pair of tones with fundamental frequencies f1 and f2
      * taking into account N upper partials
      * @param calculateDissonanceFrom
      * @param calculateDissonanceTo
@@ -57,9 +57,9 @@ public final class SMPCFunctions
         final List<Double> dissonances = new ArrayList<Double>();
         for (int i = 0; i <= howManyPartials; ++i) {
             for (int j = 0; j <= howManyPartials; ++j) {
-                final double d1 = dissonance(Pair.with(calculateDissonanceFrom * Math.pow(2, i), i), Pair.with(calculateDissonanceFrom * Math.pow(2, j), j));
-                final double d2 = dissonance(Pair.with(calculateDissonanceTo * Math.pow(2, i), i), Pair.with(calculateDissonanceTo * Math.pow(2, j), j));
-                final double d3 = dissonance(Pair.with(calculateDissonanceFrom * Math.pow(2, i), i), Pair.with(calculateDissonanceTo * Math.pow(2, j), j));
+                final double d1 = dissonanceBetweenComponents(Pair.with(calculateDissonanceFrom * Math.pow(2, i), i), Pair.with(calculateDissonanceFrom * Math.pow(2, j), j));
+                final double d2 = dissonanceBetweenComponents(Pair.with(calculateDissonanceTo * Math.pow(2, i), i), Pair.with(calculateDissonanceTo * Math.pow(2, j), j));
+                final double d3 = dissonanceBetweenComponents(Pair.with(calculateDissonanceFrom * Math.pow(2, i), i), Pair.with(calculateDissonanceTo * Math.pow(2, j), j));
                 dissonances.add(0.5 * (d1 + d2) + d3);
             }
         }
@@ -73,12 +73,12 @@ public final class SMPCFunctions
     }
 
     /**
-     * Calculate the total dissonance, Dc, for a triad chord
+     * Calculate the total dissonanceBetweenComponents, Dc, for a triad chord
      * @param chord
      * @param howManyPartials
      * @return
      */
-    public static double dissonance(final Chord chord, final int howManyPartials)
+    public static double dissonanceWithinChord(final Chord chord, final int howManyPartials)
     {
         double total = 0;
         final List<Double> pitches = chord.pitches();
@@ -87,9 +87,9 @@ public final class SMPCFunctions
             for(int j=i+1;j<numPitches;++j)
                 total+=dissonance(pitches.get(i),pitches.get(j),howManyPartials);
         return total;
-//        return dissonance(chord.pitches().get(0),chord.pitches().get(1),howManyPartials)+
-//            dissonance(chord.pitches().get(0),chord.pitches().get(2),howManyPartials)+
-//            dissonance(chord.pitches().get(1),chord.pitches().get(2),howManyPartials);
+//        return dissonanceBetweenComponents(chord.pitches().get(0),chord.pitches().get(1),howManyPartials)+
+//            dissonanceBetweenComponents(chord.pitches().get(0),chord.pitches().get(2),howManyPartials)+
+//            dissonanceBetweenComponents(chord.pitches().get(1),chord.pitches().get(2),howManyPartials);
     }
 
     /** for a two-chord progression
@@ -99,22 +99,22 @@ public final class SMPCFunctions
      * @param howManyPartials
      * @return
      */
-    static double dissonance(final Chord chord1, final Chord chord2, final int howManyPartials)
+    static double dissonanceBetweenChords(final Chord chord1, final Chord chord2, final int howManyPartials)
     {
         double total = 0;
         for(int i=0;i<chord1.pitches().size();++i)
             for(int j=0;j<chord2.pitches().size();++j)
                 total+=dissonance(chord1.pitches().get(i),chord2.pitches().get(j),howManyPartials);
         return total / (chord1.pitches().size() * chord2.pitches().size());
-//        return (dissonance(chord1.pitches().get(0),chord2.pitches().get(0),howManyPartials)+
-//                dissonance(chord1.pitches().get(0),chord2.pitches().get(1),howManyPartials)+
-//                dissonance(chord1.pitches().get(0),chord2.pitches().get(2),howManyPartials)+
-//                dissonance(chord1.pitches().get(1),chord2.pitches().get(0),howManyPartials)+
-//                dissonance(chord1.pitches().get(1),chord2.pitches().get(1),howManyPartials)+
-//                dissonance(chord1.pitches().get(1),chord2.pitches().get(2),howManyPartials)+
-//                dissonance(chord1.pitches().get(2),chord2.pitches().get(0),howManyPartials)+
-//                dissonance(chord1.pitches().get(2),chord2.pitches().get(1),howManyPartials)+
-//                dissonance(chord1.pitches().get(2),chord2.pitches().get(2),howManyPartials)) / 9.0;
+//        return (dissonanceBetweenComponents(chord1.pitches().get(0),chord2.pitches().get(0),howManyPartials)+
+//                dissonanceBetweenComponents(chord1.pitches().get(0),chord2.pitches().get(1),howManyPartials)+
+//                dissonanceBetweenComponents(chord1.pitches().get(0),chord2.pitches().get(2),howManyPartials)+
+//                dissonanceBetweenComponents(chord1.pitches().get(1),chord2.pitches().get(0),howManyPartials)+
+//                dissonanceBetweenComponents(chord1.pitches().get(1),chord2.pitches().get(1),howManyPartials)+
+//                dissonanceBetweenComponents(chord1.pitches().get(1),chord2.pitches().get(2),howManyPartials)+
+//                dissonanceBetweenComponents(chord1.pitches().get(2),chord2.pitches().get(0),howManyPartials)+
+//                dissonanceBetweenComponents(chord1.pitches().get(2),chord2.pitches().get(1),howManyPartials)+
+//                dissonanceBetweenComponents(chord1.pitches().get(2),chord2.pitches().get(2),howManyPartials)) / 9.0;
 
     }
 
@@ -188,12 +188,12 @@ public final class SMPCFunctions
 
     public static double instability(final Chord from, final Chord to, final int howManyPartials)
     {
-        return (dissonance(from,to,howManyPartials) / 9.0) + (tension(from,to,howManyPartials) * 0.2 / 18.0);
+        return (dissonanceBetweenChords(from,to,howManyPartials) / 9.0) + (tension(from,to,howManyPartials) * 0.2 / 18.0);
     }
 
     public static double instability(final Chord chord, final int howManyPartials)
     {
-        return dissonance(chord, howManyPartials) +
+        return dissonanceWithinChord(chord, howManyPartials) +
                 0.2 * tension(chord,howManyPartials);
     }
 

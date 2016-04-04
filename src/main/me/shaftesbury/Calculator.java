@@ -62,7 +62,7 @@ public final class Calculator
             for(final Triplet<Double,Double,Double> element : dissonancesFromFreq1ToFreq2)
                 System.out.println("Dissonance "+(element.getValue2()/max)+" from "+element.getValue0()+" to "+element.getValue1());
         }
-//        System.out.println("Calculated dissonance between (440,0) and ("+note.getValue0()+","+note.getValue1()+") is "+dissonance);
+//        System.out.println("Calculated dissonanceBetweenComponents between (440,0) and ("+note.getValue0()+","+note.getValue1()+") is "+dissonanceBetweenComponents);
 
         System.out.println("============================");
 
@@ -73,12 +73,12 @@ public final class Calculator
         final Chord ASuspendedSecondChord = Chords.createSus2(pitches.get(0), "A");
         final Chord ASuspendedFourthChord = Chords.createSus4(pitches.get(0), "A");
 
-        System.out.println("dissonance in chord " + AMajorChord + " " + SMPCFunctions.dissonance(AMajorChord, howManyPartials));
-        System.out.println("dissonance in chord " + AMinorChord + " " + SMPCFunctions.dissonance(AMinorChord, howManyPartials));
-        System.out.println("dissonance in chord " + AAugmentedChord + " " + SMPCFunctions.dissonance(AAugmentedChord, howManyPartials));
-        System.out.println("dissonance in chord " + ADiminishedChord + " " + SMPCFunctions.dissonance(ADiminishedChord, howManyPartials));
-        System.out.println("dissonance in chord " + ASuspendedSecondChord + " " + SMPCFunctions.dissonance(ASuspendedSecondChord, howManyPartials));
-        System.out.println("dissonance in chord " + ASuspendedFourthChord + " " + SMPCFunctions.dissonance(ASuspendedFourthChord, howManyPartials));
+        System.out.println("dissonanceBetweenComponents in chord " + AMajorChord + " " + SMPCFunctions.dissonanceWithinChord(AMajorChord, howManyPartials));
+        System.out.println("dissonanceBetweenComponents in chord " + AMinorChord + " " + SMPCFunctions.dissonanceWithinChord(AMinorChord, howManyPartials));
+        System.out.println("dissonanceBetweenComponents in chord " + AAugmentedChord + " " + SMPCFunctions.dissonanceWithinChord(AAugmentedChord, howManyPartials));
+        System.out.println("dissonanceBetweenComponents in chord " + ADiminishedChord + " " + SMPCFunctions.dissonanceWithinChord(ADiminishedChord, howManyPartials));
+        System.out.println("dissonanceBetweenComponents in chord " + ASuspendedSecondChord + " " + SMPCFunctions.dissonanceWithinChord(ASuspendedSecondChord, howManyPartials));
+        System.out.println("dissonanceBetweenComponents in chord " + ASuspendedFourthChord + " " + SMPCFunctions.dissonanceWithinChord(ASuspendedFourthChord, howManyPartials));
 
         System.out.println("tension in chord " + AMajorChord + " " + SMPCFunctions.tension(AMajorChord, howManyPartials));
         System.out.println("tension in chord " + AMinorChord + " " + SMPCFunctions.tension(AMinorChord, howManyPartials));
@@ -245,12 +245,12 @@ public final class Calculator
 
         final Chord CMajInv1 = fromCMajor.firstInversion();
         final Chord CMajInv2 = fromCMajor.secondInversion();
-        System.out.println("dissonance in chord " + fromCMajor + " " + SMPCFunctions.dissonance(fromCMajor, howManyPartials));
-        System.out.println("dissonance in chord " + CMajInv1 + " " + SMPCFunctions.dissonance(CMajInv1, howManyPartials));
-        System.out.println("dissonance in chord " + CMajInv2 + " " + SMPCFunctions.dissonance(CMajInv2, howManyPartials));
+        System.out.println("dissonanceBetweenComponents in chord " + fromCMajor + " " + SMPCFunctions.dissonanceWithinChord(fromCMajor, howManyPartials));
+        System.out.println("dissonanceBetweenComponents in chord " + CMajInv1 + " " + SMPCFunctions.dissonanceWithinChord(CMajInv1, howManyPartials));
+        System.out.println("dissonanceBetweenComponents in chord " + CMajInv2 + " " + SMPCFunctions.dissonanceWithinChord(CMajInv2, howManyPartials));
 
         {
-            // The dissonance for the Major7 chord seems high so what are the constituent dissonances?
+            // The dissonanceBetweenComponents for the Major7 chord seems high so what are the constituent dissonances?
             final double A13 = SMPCFunctions.dissonance(pitches.get(12), pitches.get(12 + 4), howManyPartials);
             final double A15 = SMPCFunctions.dissonance(pitches.get(12), pitches.get(12 + 7), howManyPartials);
             final double A17 = SMPCFunctions.dissonance(pitches.get(12), pitches.get(12 + 11), howManyPartials);
@@ -264,10 +264,10 @@ public final class Calculator
         final Chord ADominant7 = Chords.createDom7(pitches.get(12), "A");
         final Chord AMinor7 = Chords.createMin7(pitches.get(12), "A");
         final Chord ADiminished7 = Chords.createHalfDim7(pitches.get(12), "A");
-        System.out.println("dissonance in chord " + AMajor7 + " " + SMPCFunctions.dissonance(AMajor7, howManyPartials));
-        System.out.println("dissonance in chord " + ADominant7 + " " + SMPCFunctions.dissonance(ADominant7, howManyPartials));
-        System.out.println("dissonance in chord " + AMinor7 + " " + SMPCFunctions.dissonance(AMinor7, howManyPartials));
-        System.out.println("dissonance in chord " + ADiminished7 + " " + SMPCFunctions.dissonance(ADiminished7, howManyPartials));
+        System.out.println("dissonanceBetweenComponents in chord " + AMajor7 + " " + SMPCFunctions.dissonanceWithinChord(AMajor7, howManyPartials));
+        System.out.println("dissonanceBetweenComponents in chord " + ADominant7 + " " + SMPCFunctions.dissonanceWithinChord(ADominant7, howManyPartials));
+        System.out.println("dissonanceBetweenComponents in chord " + AMinor7 + " " + SMPCFunctions.dissonanceWithinChord(AMinor7, howManyPartials));
+        System.out.println("dissonanceBetweenComponents in chord " + ADiminished7 + " " + SMPCFunctions.dissonanceWithinChord(ADiminished7, howManyPartials));
         System.out.println("============================");
     }
 }
