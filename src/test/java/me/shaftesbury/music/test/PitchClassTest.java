@@ -1,8 +1,8 @@
 package me.shaftesbury.music.test;
 
+import me.shaftesbury.Interval;
 import me.shaftesbury.PitchClass;
 import me.shaftesbury.PitchClassInternal;
-import me.shaftesbury.Interval;
 import org.junit.Assert;
 import org.junit.Test;
 

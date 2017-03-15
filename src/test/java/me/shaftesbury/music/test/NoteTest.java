@@ -1,8 +1,8 @@
 package me.shaftesbury.music.test;
 
 import com.google.common.collect.Lists;
-import me.shaftesbury.Note;
 import me.shaftesbury.Interval;
+import me.shaftesbury.Note;
 import me.shaftesbury.utils.functional.Func;
 import me.shaftesbury.utils.functional.Functional;
 import org.javatuples.Pair;

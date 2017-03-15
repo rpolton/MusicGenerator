@@ -1,7 +1,10 @@
 package me.shaftesbury.music.test;
 
 import com.google.common.collect.Lists;
-import me.shaftesbury.*;
+import me.shaftesbury.MinorScale;
+import me.shaftesbury.Note;
+import me.shaftesbury.PitchClass;
+import me.shaftesbury.PitchClassInternal;
 import org.junit.Assert;
 import org.junit.Test;
 

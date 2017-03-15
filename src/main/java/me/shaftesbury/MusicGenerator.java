@@ -21,7 +21,12 @@ public class MusicGenerator {
                 int counter=0;
                 Note newNote;
                 do {
-                    newNote = Generators.nextNoteConstantDissonance(rnd,howManyAttempts,averageDissonance,0.2,prevNotes);
+                    // Note, in the F# impl I use a decay factor between subsequent notes
+                    // let calculatedDissonance =
+                    // freqs |> (
+                    //        List.pairwise >> List.mapi (fun pos elem -> pos,elem) >>
+                    //                List.fold (fun state (pos, (freq1, freq2)) -> state + System.Math.Exp (-1. * (float pos) * r) * dissonance freq1 freq2) 0.0)
+                    newNote = Generators.nextNoteConstantDissonance(rnd,howManyAttempts,averageDissonance,1.25,prevNotes);
                 }while(SMPCFunctions.dissonance(Note.toFreq(thisNote),Note.toFreq(newNote))>averageDissonance && ++counter<howManyAttempts);
                 previousNotes.addFirst(newNote);        // !!!!!!!
                 return Pair.with(thisNote,previousNotes);
